@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="49d2599ac0ce45e4b3e2ed75942099d4" Name="Diagram1" ZoomLevel="67">
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.AntecedentePersonalV" Width="1.75" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarDosisVacunaPersonalizadaV" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarExamenPersonalizadoV" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarPersonalizadaV" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarV" Width="1.5" PointX="2.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarPacientesV" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ConsultaV" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.DosisVacunaV" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExamenV" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExpedienteV" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.GrupoSanguineoV" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionFamiliarV" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionNacimientoV" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ParentescoV" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.RecetaV" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.UsuarioV" Width="1.5" PointX="1" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.VacunaV" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.PacienteV" Width="1.5" PointX="11.375" PointY="9.75" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.SomatometriaV" Width="1.5" PointX="3.625" PointY="14.75" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarConsultaV" Width="1.5" PointX="13.375" PointY="8.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

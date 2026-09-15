@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ConsultorioPediatricoBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AntecedentePersonalV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDPaciente" Type="Int32" Nullable="false" />
+    <Property Name="Padecimiento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EnfermedadCronica" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Alergias" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Transfusion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Hospitalizacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="TipoVivienda" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HabitoHigiene" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HabitoAlimentacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DesarrolloSocial" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="Cirugias" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CargarDosisVacunaPersonalizadaV">
+    <Key>
+      <PropertyRef Name="IdDosis" />
+      <PropertyRef Name="IdVacuna" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="NumeroDosis" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="IdDosis" Type="Int32" Nullable="false" />
+    <Property Name="IdVacuna" Type="Int32" Nullable="false" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumeroDosis" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FechaAplicacion" Type="DateTime" Precision="0" />
+    <Property Name="Notas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="enConsultorio" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="CargarExamenPersonalizadoV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Nombre_Examen" />
+      <PropertyRef Name="Imagen" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Nombre_Examen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Notas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="FechaQueSeRealizo" Type="DateTime" Precision="0" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CargarInformacionFamiliarPersonalizadaV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="IdHistoria" />
+      <PropertyRef Name="Observacion" />
+      <PropertyRef Name="Paciente" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="IDPaciente" Type="Int32" Nullable="false" />
+    <Property Name="IdHistoria" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Observacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Parentesco" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Paciente" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CargarInformacionFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IdHistoria" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="IDParentesco" />
+      <PropertyRef Name="Parentesco" />
+      <PropertyRef Name="NombreGrupo" />
+      <PropertyRef Name="CondicionMedica" />
+      <PropertyRef Name="Activo" />
+      <PropertyRef Name="IdPaciente" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="IdHistoria" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDParentesco" Type="Int32" Nullable="false" />
+    <Property Name="Parentesco" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDGrupoSanguineo" Type="Int32" />
+    <Property Name="NombreGrupo" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TelContacto" Type="Int32" />
+    <Property Name="Anotaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CondicionMedica" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="IdPaciente" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="CargarPacientesV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Apellido" />
+      <PropertyRef Name="Tipo_de_Sangre" />
+      <PropertyRef Name="F__Nacimiento" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Segundo_Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Segundo_Apellido" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tipo_de_Sangre" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="F__Nacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Ultima_Consulta" Type="DateTime" Precision="3" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ConsultaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="HistoriaActual" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Diagnostico" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tratamiento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="IDMedico" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DosisVacunaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NumeroDosis" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDVacuna" Type="Int32" Nullable="false" />
+    <Property Name="FechaAplicacion" Type="DateTime" Precision="0" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Notas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="enConsultorio" Type="Boolean" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExamenV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="NombreImagen" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FechaQueSeRealizo" Type="DateTime" Precision="0" />
+    <Property Name="FechaIngresoBD" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Notas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExpedienteV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDPaciente" Type="Int32" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="FechaCreacion" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="GrupoSanguineoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreGrupo" Type="String" MaxLength="5" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Notas" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="HistoriaClinicaFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDInformacionFamiliar" Type="Int32" Nullable="false" />
+    <Property Name="ObservacionesMedicas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDGrupoSanguineo" Type="Int32" />
+  </EntityType>
+  <EntityType Name="InformacionFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDPaciente" Type="Int32" Nullable="false" />
+    <Property Name="IDParentesco" Type="Int32" Nullable="false" />
+    <Property Name="TelContacto" Type="Int32" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="Observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="InformacionNacimientoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Peso" Type="Double" />
+    <Property Name="Altura" Type="Double" />
+    <Property Name="PerimetroCefalico" Type="Double" />
+    <Property Name="FueCesarea" Type="Boolean" />
+    <Property Name="Posicion" Type="Boolean" />
+    <Property Name="Observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CircularCordon" Type="Boolean" />
+    <Property Name="IDPaciente" Type="Int32" Nullable="false" />
+    <Property Name="MotivoCesarea" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ComplicacionEmbarazo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EnfermedadEmbarazo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MedicacionEmbarazo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="EdadGestacional" Type="Int32" />
+  </EntityType>
+  <EntityType Name="ParentescoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Notas" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RecetaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Medicamento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Indicacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FechaPrescripcion" Type="DateTime" Precision="3" />
+    <Property Name="Activo" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="UsuarioV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Username" />
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IDMedico" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VacunaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Observacion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="NumeroDosis" Type="Int32" />
+    <Property Name="Activo" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="ConsultorioPediatricoBDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AntecedentePersonalV" EntityType="Self.AntecedentePersonalV" />
+    <EntitySet Name="CargarDosisVacunaPersonalizadaV" EntityType="Self.CargarDosisVacunaPersonalizadaV" />
+    <EntitySet Name="CargarExamenPersonalizadoV" EntityType="Self.CargarExamenPersonalizadoV" />
+    <EntitySet Name="CargarInformacionFamiliarPersonalizadaV" EntityType="Self.CargarInformacionFamiliarPersonalizadaV" />
+    <EntitySet Name="CargarInformacionFamiliarV" EntityType="Self.CargarInformacionFamiliarV" />
+    <EntitySet Name="CargarPacientesV" EntityType="Self.CargarPacientesV" />
+    <EntitySet Name="ConsultaV" EntityType="Self.ConsultaV" />
+    <EntitySet Name="DosisVacunaV" EntityType="Self.DosisVacunaV" />
+    <EntitySet Name="ExamenV" EntityType="Self.ExamenV" />
+    <EntitySet Name="ExpedienteV" EntityType="Self.ExpedienteV" />
+    <EntitySet Name="GrupoSanguineoV" EntityType="Self.GrupoSanguineoV" />
+    <EntitySet Name="HistoriaClinicaFamiliarV" EntityType="Self.HistoriaClinicaFamiliarV" />
+    <EntitySet Name="InformacionFamiliarV" EntityType="Self.InformacionFamiliarV" />
+    <EntitySet Name="InformacionNacimientoV" EntityType="Self.InformacionNacimientoV" />
+    <EntitySet Name="ParentescoV" EntityType="Self.ParentescoV" />
+    <EntitySet Name="RecetaV" EntityType="Self.RecetaV" />
+    <EntitySet Name="UsuarioV" EntityType="Self.UsuarioV" />
+    <EntitySet Name="VacunaV" EntityType="Self.VacunaV" />
+    <FunctionImport Name="AntecedentePersonal_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="Padecimiento" Mode="In" Type="String" />
+      <Parameter Name="Alergias" Mode="In" Type="String" />
+      <Parameter Name="EnfermedadCronica" Mode="In" Type="String" />
+      <Parameter Name="Transfusion" Mode="In" Type="String" />
+      <Parameter Name="Cirugias" Mode="In" Type="String" />
+      <Parameter Name="Hospitalizacion" Mode="In" Type="String" />
+      <Parameter Name="TipoVivienda" Mode="In" Type="String" />
+      <Parameter Name="HabitoHigiene" Mode="In" Type="String" />
+      <Parameter Name="HabitoAlimentacion" Mode="In" Type="String" />
+      <Parameter Name="DesarrolloSocial" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="AntecedentePersonal_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="Padecimiento" Mode="In" Type="String" />
+      <Parameter Name="Alergias" Mode="In" Type="String" />
+      <Parameter Name="EnfermedadCronica" Mode="In" Type="String" />
+      <Parameter Name="Transfusion" Mode="In" Type="String" />
+      <Parameter Name="Cirugias" Mode="In" Type="String" />
+      <Parameter Name="Hospitalizacion" Mode="In" Type="String" />
+      <Parameter Name="TipoVivienda" Mode="In" Type="String" />
+      <Parameter Name="HabitoHigiene" Mode="In" Type="String" />
+      <Parameter Name="HabitoAlimentacion" Mode="In" Type="String" />
+      <Parameter Name="DesarrolloSocial" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Consulta_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="Diagnostico" Mode="In" Type="String" />
+      <Parameter Name="Tratamiento" Mode="In" Type="String" />
+      <Parameter Name="Fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="HistoriaActual" Mode="In" Type="String" />
+      <Parameter Name="IDMedico" Mode="In" Type="Int32" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Consulta_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Consulta_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="Tratamiento" Mode="In" Type="String" />
+      <Parameter Name="Diagnostico" Mode="In" Type="String" />
+      <Parameter Name="Fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="HistoriaActual" Mode="In" Type="String" />
+      <Parameter Name="IDMedico" Mode="In" Type="Int32" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="DosisVacuna_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="NumeroDosis" Mode="In" Type="String" />
+      <Parameter Name="IDVacuna" Mode="In" Type="Int32" />
+      <Parameter Name="FechaAplicacion" Mode="In" Type="DateTime" />
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+      <Parameter Name="enConsultorio" Mode="In" Type="Boolean" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="DosisVacuna_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="DosisVacuna_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="NumeroDosis" Mode="In" Type="String" />
+      <Parameter Name="IDVacuna" Mode="In" Type="Int32" />
+      <Parameter Name="FechaAplicacion" Mode="In" Type="DateTime" />
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+      <Parameter Name="enConsultorio" Mode="In" Type="Boolean" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Examen_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="NombreImagen" Mode="In" Type="String" />
+      <Parameter Name="FechaQueSeRealizo" Mode="In" Type="DateTime" />
+      <Parameter Name="FechaIngresoBD" Mode="In" Type="DateTime" />
+      <Parameter Name="Imagen" Mode="In" Type="Binary" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Examen_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Examen_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDExpediente" Mode="In" Type="Int32" />
+      <Parameter Name="NombreImagen" Mode="In" Type="String" />
+      <Parameter Name="FechaQueSeRealizo" Mode="In" Type="DateTime" />
+      <Parameter Name="FechaIngresoBD" Mode="In" Type="DateTime" />
+      <Parameter Name="Imagen" Mode="In" Type="Binary" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Expediente_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="FechaCreacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Expediente_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Expediente_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="Descripcion" Mode="In" Type="String" />
+      <Parameter Name="FechaCreacion" Mode="In" Type="DateTime" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="GrupoSanguineo_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="NombreGrupo" Mode="In" Type="String" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="GrupoSanguineo_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="GrupoSanguineo_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="NombreGrupo" Mode="In" Type="String" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="HistoriaClinicaFamiliar_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDInformacionFamiliar" Mode="In" Type="Int32" />
+      <Parameter Name="ObservacionesMedicas" Mode="In" Type="String" />
+      <Parameter Name="IDGrupoSanguineo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="HistoriaClinicaFamiliar_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="HistoriaClinicaFamiliar_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDInformacionFamiliar" Mode="In" Type="Int32" />
+      <Parameter Name="ObservacionesMedicas" Mode="In" Type="String" />
+      <Parameter Name="IDGrupoSanguineo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionFamiliar_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="IDParentesco" Mode="In" Type="Int32" />
+      <Parameter Name="TelContacto" Mode="In" Type="Int32" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionFamiliar_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionFamiliar_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="IDParentesco" Mode="In" Type="Int32" />
+      <Parameter Name="TelContacto" Mode="In" Type="Int32" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionNacimiento_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Peso" Mode="In" Type="Double" />
+      <Parameter Name="Altura" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroCefalico" Mode="In" Type="Double" />
+      <Parameter Name="FueCesarea" Mode="In" Type="Boolean" />
+      <Parameter Name="Posicion" Mode="In" Type="Boolean" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="CircularCordon" Mode="In" Type="Boolean" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="MotivoCesarea" Mode="In" Type="String" />
+      <Parameter Name="EnfermedadEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="ComplicacionEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="MedicacionEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="EdadGestacional" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionNacimiento_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InformacionNacimiento_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="Peso" Mode="In" Type="Double" />
+      <Parameter Name="Altura" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroCefalico" Mode="In" Type="Double" />
+      <Parameter Name="FueCesarea" Mode="In" Type="Boolean" />
+      <Parameter Name="Posicion" Mode="In" Type="Boolean" />
+      <Parameter Name="Observaciones" Mode="In" Type="String" />
+      <Parameter Name="CircularCordon" Mode="In" Type="Boolean" />
+      <Parameter Name="IDPaciente" Mode="In" Type="Int32" />
+      <Parameter Name="MotivoCesarea" Mode="In" Type="String" />
+      <Parameter Name="EnfermedadEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="ComplicacionEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="MedicacionEmbarazo" Mode="In" Type="String" />
+      <Parameter Name="EdadGestacional" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerEdad" ReturnType="Collection(String)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="ObtenerEdadConsulta" ReturnType="Collection(String)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="FechaConsulta" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="Paciente_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre1" Mode="In" Type="String" />
+      <Parameter Name="Nombre2" Mode="In" Type="String" />
+      <Parameter Name="Apellido1" Mode="In" Type="String" />
+      <Parameter Name="Apellido2" Mode="In" Type="String" />
+      <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="NacimientoHospital" Mode="In" Type="Boolean" />
+      <Parameter Name="CiudadNacimiento" Mode="In" Type="String" />
+      <Parameter Name="LugarNacimiento" Mode="In" Type="String" />
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+      <Parameter Name="IDGrupoSanguineo" Mode="In" Type="Int32" />
+      <Parameter Name="EsNino" Mode="In" Type="Boolean" />
+      <Parameter Name="NombrePadre" Mode="In" Type="String" />
+      <Parameter Name="CedulaPadre" Mode="In" Type="String" />
+      <Parameter Name="NombreMadre" Mode="In" Type="String" />
+      <Parameter Name="CedulaMadre" Mode="In" Type="String" />
+      <Parameter Name="Religion" Mode="In" Type="String" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+      <Parameter Name="Origen" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Paciente_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Paciente_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="Nombre1" Mode="In" Type="String" />
+      <Parameter Name="Nombre2" Mode="In" Type="String" />
+      <Parameter Name="Apellido1" Mode="In" Type="String" />
+      <Parameter Name="Apellido2" Mode="In" Type="String" />
+      <Parameter Name="FechaNacimiento" Mode="In" Type="DateTime" />
+      <Parameter Name="NacimientoHospital" Mode="In" Type="Boolean" />
+      <Parameter Name="CiudadNacimiento" Mode="In" Type="String" />
+      <Parameter Name="LugarNacimiento" Mode="In" Type="String" />
+      <Parameter Name="Direccion" Mode="In" Type="String" />
+      <Parameter Name="IDGrupoSanguineo" Mode="In" Type="Int32" />
+      <Parameter Name="EsNino" Mode="In" Type="Boolean" />
+      <Parameter Name="NombrePadre" Mode="In" Type="String" />
+      <Parameter Name="CedulaPadre" Mode="In" Type="String" />
+      <Parameter Name="NombreMadre" Mode="In" Type="String" />
+      <Parameter Name="CedulaMadre" Mode="In" Type="String" />
+      <Parameter Name="Religion" Mode="In" Type="String" />
+      <Parameter Name="Origen" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="PacienteEliminarCascada">
+      <Parameter Name="IdPaciente" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Parentesco_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Parentesco_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Parentesco_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="Notas" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Somatometria_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="IDConsulta" Mode="In" Type="Int32" />
+      <Parameter Name="Peso" Mode="In" Type="Double" />
+      <Parameter Name="Estatura" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroCefalico" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroAbdominal" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroToracico" Mode="In" Type="Double" />
+      <Parameter Name="FrecuenciaCardiaca" Mode="In" Type="Int32" />
+      <Parameter Name="FrecuenciaRespiratoria" Mode="In" Type="Int32" />
+      <Parameter Name="PresionSistolica" Mode="In" Type="Double" />
+      <Parameter Name="PresionDiastolica" Mode="In" Type="Double" />
+      <Parameter Name="Temperatura" Mode="In" Type="Double" />
+      <Parameter Name="Exploratorio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="Somatometria_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Somatometria_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="IDConsulta" Mode="In" Type="Int32" />
+      <Parameter Name="Peso" Mode="In" Type="Double" />
+      <Parameter Name="Estatura" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroCefalico" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroAbdominal" Mode="In" Type="Double" />
+      <Parameter Name="PerimetroToracico" Mode="In" Type="Double" />
+      <Parameter Name="FrecuenciaCardiaca" Mode="In" Type="Int32" />
+      <Parameter Name="FrecuenciaRespiratoria" Mode="In" Type="Int32" />
+      <Parameter Name="PresionSistolica" Mode="In" Type="Double" />
+      <Parameter Name="PresionDiastolica" Mode="In" Type="Double" />
+      <Parameter Name="Temperatura" Mode="In" Type="Double" />
+      <Parameter Name="Exploratorio" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(ConsultorioPediatricoBDModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(ConsultorioPediatricoBDModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="Vacuna_Actualizar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="NumeroDosis" Mode="In" Type="Int32" />
+      <Parameter Name="Observacion" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <FunctionImport Name="Vacuna_Eliminar">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Vacuna_Insertar" ReturnType="Collection(Decimal)">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="NumeroDosis" Mode="In" Type="Int32" />
+      <Parameter Name="Observacion" Mode="In" Type="String" />
+      <Parameter Name="Activo" Mode="In" Type="Boolean" />
+    </FunctionImport>
+    <EntitySet Name="PacienteV" EntityType="ConsultorioPediatricoBDModel.PacienteV" />
+    <EntitySet Name="SomatometriaV" EntityType="ConsultorioPediatricoBDModel.SomatometriaV" />
+    <EntitySet Name="CargarConsultaV" EntityType="ConsultorioPediatricoBDModel.CargarConsultaV" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="PacienteV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nombre2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Apellido1" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Apellido2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FechaNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="NacimientoHospital" Type="Boolean" />
+    <Property Name="CiudadNacimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LugarNacimiento" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Direccion" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IDGrupoSanguineo" Type="Int32" Nullable="false" />
+    <Property Name="EsNino" Type="Boolean" Nullable="false" />
+    <Property Name="NombrePadre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CedulaPadre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NombreMadre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CedulaMadre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Religion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Notas" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Origen" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SomatometriaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDConsulta" Type="Int32" Nullable="false" />
+    <Property Name="Exploratorio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Temperatura" Type="Double" />
+    <Property Name="PresionDiastolica" Type="Double" />
+    <Property Name="PresionSistolica" Type="Double" />
+    <Property Name="FrecuenciaRespiratoria" Type="Int32" />
+    <Property Name="FrecuenciaCardiaca" Type="Int32" />
+    <Property Name="PerimetroAbdominal" Type="Double" />
+    <Property Name="PerimetroToracico" Type="Double" />
+    <Property Name="PerimetroCefalico" Type="Double" />
+    <Property Name="Estatura" Type="Double" />
+    <Property Name="Peso" Type="Double" />
+  </EntityType>
+  <EntityType Name="CargarConsultaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="HistoriaActual" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" />
+    <Property Name="Diagnostico" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Observaciones" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Tratamiento" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IDMedico" Type="Int32" />
+    <Property Name="Activo" Type="Boolean" Nullable="false" />
+    <Property Name="IdSomatometria" Type="Int32" Nullable="false" />
+    <Property Name="IDConsulta" Type="Int32" Nullable="false" />
+    <Property Name="Peso" Type="Double" />
+    <Property Name="Estatura" Type="Double" />
+    <Property Name="PerimetroCefalico" Type="Double" />
+    <Property Name="PerimetroAbdominal" Type="Double" />
+    <Property Name="PerimetroToracico" Type="Double" />
+    <Property Name="FrecuenciaCardiaca" Type="Int32" />
+    <Property Name="FrecuenciaRespiratoria" Type="Int32" />
+    <Property Name="PresionSistolica" Type="Double" />
+    <Property Name="PresionDiastolica" Type="Double" />
+    <Property Name="Temperatura" Type="Double" />
+    <Property Name="Exploratorio" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

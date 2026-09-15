@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ConsultorioPediatricoBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.AntecedentePersonalV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="AntecedentePersonalV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="Padecimiento" Type="nvarchar(max)" />
+    <Property Name="EnfermedadCronica" Type="nvarchar(max)" />
+    <Property Name="Alergias" Type="nvarchar(max)" />
+    <Property Name="Transfusion" Type="nvarchar(max)" />
+    <Property Name="Hospitalizacion" Type="nvarchar(max)" />
+    <Property Name="TipoVivienda" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="HabitoHigiene" Type="nvarchar(max)" />
+    <Property Name="HabitoAlimentacion" Type="nvarchar(max)" />
+    <Property Name="DesarrolloSocial" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="Cirugias" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarConsultaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarConsultaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="HistoriaActual" Type="nvarchar(max)" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Diagnostico" Type="nvarchar(max)" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="Tratamiento" Type="nvarchar(max)" />
+    <Property Name="IDMedico" Type="int" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="IdSomatometria" Type="int" Nullable="false" />
+    <Property Name="IDConsulta" Type="int" Nullable="false" />
+    <Property Name="Peso" Type="float" />
+    <Property Name="Estatura" Type="float" />
+    <Property Name="PerimetroCefalico" Type="float" />
+    <Property Name="PerimetroAbdominal" Type="float" />
+    <Property Name="PerimetroToracico" Type="float" />
+    <Property Name="FrecuenciaCardiaca" Type="int" />
+    <Property Name="FrecuenciaRespiratoria" Type="int" />
+    <Property Name="PresionSistolica" Type="float" />
+    <Property Name="PresionDiastolica" Type="float" />
+    <Property Name="Temperatura" Type="float" />
+    <Property Name="Exploratorio" Type="nvarchar(max)" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarDosisVacunaPersonalizadaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarDosisVacunaPersonalizadaV">
+    <Key>
+      <PropertyRef Name="IdDosis" />
+      <PropertyRef Name="IdVacuna" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="NumeroDosis" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="IdDosis" Type="int" Nullable="false" />
+    <Property Name="IdVacuna" Type="int" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NumeroDosis" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaAplicacion" Type="date" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="enConsultorio" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarExamenPersonalizadoV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarExamenPersonalizadoV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Nombre Examen" />
+      <PropertyRef Name="Imagen" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Nombre Examen" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Imagen" Type="image" Nullable="false" />
+    <Property Name="FechaQueSeRealizo" Type="date" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarInformacionFamiliarPersonalizadaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarInformacionFamiliarPersonalizadaV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="IdHistoria" />
+      <PropertyRef Name="Observacion" />
+      <PropertyRef Name="Paciente" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="IdHistoria" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observacion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Parentesco" Type="nvarchar" MaxLength="50" />
+    <Property Name="Paciente" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarInformacionFamiliarV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarInformacionFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IdHistoria" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="IDParentesco" />
+      <PropertyRef Name="Parentesco" />
+      <PropertyRef Name="NombreGrupo" />
+      <PropertyRef Name="CondicionMedica" />
+      <PropertyRef Name="Activo" />
+      <PropertyRef Name="IdPaciente" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IdHistoria" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDParentesco" Type="int" Nullable="false" />
+    <Property Name="Parentesco" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDGrupoSanguineo" Type="int" />
+    <Property Name="NombreGrupo" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="TelContacto" Type="int" />
+    <Property Name="Anotaciones" Type="nvarchar(max)" />
+    <Property Name="CondicionMedica" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="IdPaciente" Type="int" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarPacientesV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="CargarPacientesV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Apellido" />
+      <PropertyRef Name="Tipo de Sangre" />
+      <PropertyRef Name="F. Nacimiento" />
+      <PropertyRef Name="Activo" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Segundo Nombre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Apellido" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Segundo Apellido" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tipo de Sangre" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="F. Nacimiento" Type="date" Nullable="false" />
+    <Property Name="Ultima Consulta" Type="datetime" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ConsultaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ConsultaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="HistoriaActual" Type="nvarchar(max)" />
+    <Property Name="Diagnostico" Type="nvarchar(max)" />
+    <Property Name="Tratamiento" Type="nvarchar(max)" />
+    <Property Name="IDMedico" Type="int" />
+    <Property Name="Fecha" Type="date" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.DosisVacunaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="DosisVacunaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroDosis" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDVacuna" Type="int" Nullable="false" />
+    <Property Name="FechaAplicacion" Type="date" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="enConsultorio" Type="bit" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ExamenV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ExamenV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="NombreImagen" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaQueSeRealizo" Type="date" />
+    <Property Name="FechaIngresoBD" Type="date" Nullable="false" />
+    <Property Name="Imagen" Type="image" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ExpedienteV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ExpedienteV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="200" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.GrupoSanguineoV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="GrupoSanguineoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreGrupo" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.HistoriaClinicaFamiliarV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="HistoriaClinicaFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDInformacionFamiliar" Type="int" Nullable="false" />
+    <Property Name="ObservacionesMedicas" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IDGrupoSanguineo" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.InformacionFamiliarV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="InformacionFamiliarV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="IDParentesco" Type="int" Nullable="false" />
+    <Property Name="TelContacto" Type="int" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.InformacionNacimientoV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="InformacionNacimientoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Peso" Type="float" />
+    <Property Name="Altura" Type="float" />
+    <Property Name="PerimetroCefalico" Type="float" />
+    <Property Name="FueCesarea" Type="bit" />
+    <Property Name="Posicion" Type="bit" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="CircularCordon" Type="bit" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="MotivoCesarea" Type="nvarchar(max)" />
+    <Property Name="ComplicacionEmbarazo" Type="nvarchar(max)" />
+    <Property Name="EnfermedadEmbarazo" Type="nvarchar(max)" />
+    <Property Name="MedicacionEmbarazo" Type="nvarchar(max)" />
+    <Property Name="EdadGestacional" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.PacienteV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="PacienteV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Apellido1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido2" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="NacimientoHospital" Type="bit" />
+    <Property Name="CiudadNacimiento" Type="nvarchar" MaxLength="50" />
+    <Property Name="LugarNacimiento" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="200" />
+    <Property Name="IDGrupoSanguineo" Type="int" Nullable="false" />
+    <Property Name="EsNino" Type="bit" Nullable="false" />
+    <Property Name="NombrePadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="CedulaPadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="NombreMadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="CedulaMadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Origen" Type="nvarchar" MaxLength="15" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ParentescoV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ParentescoV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.RecetaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="RecetaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Medicamento" Type="nvarchar(max)" />
+    <Property Name="Indicacion" Type="nvarchar(max)" />
+    <Property Name="FechaPrescripcion" Type="datetime" />
+    <Property Name="Activo" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.SomatometriaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="SomatometriaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDConsulta" Type="int" Nullable="false" />
+    <Property Name="Exploratorio" Type="nvarchar(max)" />
+    <Property Name="Temperatura" Type="float" />
+    <Property Name="PresionDiastolica" Type="float" />
+    <Property Name="PresionSistolica" Type="float" />
+    <Property Name="FrecuenciaRespiratoria" Type="int" />
+    <Property Name="FrecuenciaCardiaca" Type="int" />
+    <Property Name="PerimetroAbdominal" Type="float" />
+    <Property Name="PerimetroToracico" Type="float" />
+    <Property Name="PerimetroCefalico" Type="float" />
+    <Property Name="Estatura" Type="float" />
+    <Property Name="Peso" Type="float" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.UsuarioV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="UsuarioV">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="Username" />
+      <PropertyRef Name="Password" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDMedico" Type="int" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.VacunaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="VacunaV">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observacion" Type="nvarchar(max)" />
+    <Property Name="NumeroDosis" Type="int" />
+    <Property Name="Activo" Type="bit" />
+  </EntityType>
+  <Function Name="AntecedentePersonal_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="Padecimiento" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Alergias" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EnfermedadCronica" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Transfusion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Cirugias" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Hospitalizacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="TipoVivienda" Type="nvarchar" Mode="In" />
+    <Parameter Name="HabitoHigiene" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HabitoAlimentacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="DesarrolloSocial" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="AntecedentePersonal_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="Padecimiento" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Alergias" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EnfermedadCronica" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Transfusion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Cirugias" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Hospitalizacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="TipoVivienda" Type="nvarchar" Mode="In" />
+    <Parameter Name="HabitoHigiene" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HabitoAlimentacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="DesarrolloSocial" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="calcularEdad" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="nvarchar(max)">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Consulta_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="Diagnostico" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Tratamiento" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Fecha" Type="datetime" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HistoriaActual" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="IDMedico" Type="int" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Consulta_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Consulta_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="Tratamiento" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Diagnostico" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Fecha" Type="datetime" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="HistoriaActual" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="IDMedico" Type="int" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="DosisVacuna_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="NumeroDosis" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDVacuna" Type="int" Mode="In" />
+    <Parameter Name="FechaAplicacion" Type="datetime" Mode="In" />
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enConsultorio" Type="bit" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="DosisVacuna_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="DosisVacuna_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NumeroDosis" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDVacuna" Type="int" Mode="In" />
+    <Parameter Name="FechaAplicacion" Type="datetime" Mode="In" />
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="enConsultorio" Type="bit" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Examen_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="NombreImagen" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaQueSeRealizo" Type="datetime" Mode="In" />
+    <Parameter Name="FechaIngresoBD" Type="datetime" Mode="In" />
+    <Parameter Name="Imagen" Type="image" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Examen_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Examen_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+    <Parameter Name="NombreImagen" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaQueSeRealizo" Type="datetime" Mode="In" />
+    <Parameter Name="FechaIngresoBD" Type="datetime" Mode="In" />
+    <Parameter Name="Imagen" Type="image" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Expediente_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="Descripcion" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaCreacion" Type="datetime" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Expediente_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Expediente_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="Descripcion" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaCreacion" Type="datetime" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="fn_diagramobjects" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" ReturnType="int" />
+  <Function Name="GrupoSanguineo_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="NombreGrupo" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="GrupoSanguineo_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="GrupoSanguineo_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="NombreGrupo" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="HistoriaClinicaFamiliar_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDInformacionFamiliar" Type="int" Mode="In" />
+    <Parameter Name="ObservacionesMedicas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="IDGrupoSanguineo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="HistoriaClinicaFamiliar_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="HistoriaClinicaFamiliar_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDInformacionFamiliar" Type="int" Mode="In" />
+    <Parameter Name="ObservacionesMedicas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="IDGrupoSanguineo" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InformacionFamiliar_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="IDParentesco" Type="int" Mode="In" />
+    <Parameter Name="TelContacto" Type="int" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="InformacionFamiliar_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InformacionFamiliar_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="IDParentesco" Type="int" Mode="In" />
+    <Parameter Name="TelContacto" Type="int" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="InformacionNacimiento_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Peso" Type="float" Mode="In" />
+    <Parameter Name="Altura" Type="float" Mode="In" />
+    <Parameter Name="PerimetroCefalico" Type="float" Mode="In" />
+    <Parameter Name="FueCesarea" Type="bit" Mode="In" />
+    <Parameter Name="Posicion" Type="bit" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CircularCordon" Type="bit" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="MotivoCesarea" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EnfermedadEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ComplicacionEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="MedicacionEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EdadGestacional" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InformacionNacimiento_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="InformacionNacimiento_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Peso" Type="float" Mode="In" />
+    <Parameter Name="Altura" Type="float" Mode="In" />
+    <Parameter Name="PerimetroCefalico" Type="float" Mode="In" />
+    <Parameter Name="FueCesarea" Type="bit" Mode="In" />
+    <Parameter Name="Posicion" Type="bit" Mode="In" />
+    <Parameter Name="Observaciones" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="CircularCordon" Type="bit" Mode="In" />
+    <Parameter Name="IDPaciente" Type="int" Mode="In" />
+    <Parameter Name="MotivoCesarea" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EnfermedadEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="ComplicacionEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="MedicacionEmbarazo" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="EdadGestacional" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ObtenerEdad" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="ObtenerEdadConsulta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="FechaConsulta" Type="date" Mode="In" />
+  </Function>
+  <Function Name="Paciente_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Nombre1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Nombre2" Type="nvarchar" Mode="In" />
+    <Parameter Name="Apellido1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Apellido2" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaNacimiento" Type="datetime" Mode="In" />
+    <Parameter Name="NacimientoHospital" Type="bit" Mode="In" />
+    <Parameter Name="CiudadNacimiento" Type="nvarchar" Mode="In" />
+    <Parameter Name="LugarNacimiento" Type="nvarchar" Mode="In" />
+    <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDGrupoSanguineo" Type="int" Mode="In" />
+    <Parameter Name="EsNino" Type="bit" Mode="In" />
+    <Parameter Name="NombrePadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="CedulaPadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="NombreMadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="CedulaMadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Religion" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Origen" Type="nvarchar" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Paciente_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Paciente_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Nombre2" Type="nvarchar" Mode="In" />
+    <Parameter Name="Apellido1" Type="nvarchar" Mode="In" />
+    <Parameter Name="Apellido2" Type="nvarchar" Mode="In" />
+    <Parameter Name="FechaNacimiento" Type="datetime" Mode="In" />
+    <Parameter Name="NacimientoHospital" Type="bit" Mode="In" />
+    <Parameter Name="CiudadNacimiento" Type="nvarchar" Mode="In" />
+    <Parameter Name="LugarNacimiento" Type="nvarchar" Mode="In" />
+    <Parameter Name="Direccion" Type="nvarchar" Mode="In" />
+    <Parameter Name="IDGrupoSanguineo" Type="int" Mode="In" />
+    <Parameter Name="EsNino" Type="bit" Mode="In" />
+    <Parameter Name="NombrePadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="CedulaPadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="NombreMadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="CedulaMadre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Religion" Type="nvarchar" Mode="In" />
+    <Parameter Name="Origen" Type="nvarchar" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="PacienteEliminarCascada" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdPaciente" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Parentesco_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Parentesco_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Parentesco_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="Notas" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="Somatometria_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="IDConsulta" Type="int" Mode="In" />
+    <Parameter Name="Peso" Type="float" Mode="In" />
+    <Parameter Name="Estatura" Type="float" Mode="In" />
+    <Parameter Name="PerimetroCefalico" Type="float" Mode="In" />
+    <Parameter Name="PerimetroAbdominal" Type="float" Mode="In" />
+    <Parameter Name="PerimetroToracico" Type="float" Mode="In" />
+    <Parameter Name="FrecuenciaCardiaca" Type="int" Mode="In" />
+    <Parameter Name="FrecuenciaRespiratoria" Type="int" Mode="In" />
+    <Parameter Name="PresionSistolica" Type="float" Mode="In" />
+    <Parameter Name="PresionDiastolica" Type="float" Mode="In" />
+    <Parameter Name="Temperatura" Type="float" Mode="In" />
+    <Parameter Name="Exploratorio" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="Somatometria_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Somatometria_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDConsulta" Type="int" Mode="In" />
+    <Parameter Name="Peso" Type="float" Mode="In" />
+    <Parameter Name="Estatura" Type="float" Mode="In" />
+    <Parameter Name="PerimetroCefalico" Type="float" Mode="In" />
+    <Parameter Name="PerimetroAbdominal" Type="float" Mode="In" />
+    <Parameter Name="PerimetroToracico" Type="float" Mode="In" />
+    <Parameter Name="FrecuenciaCardiaca" Type="int" Mode="In" />
+    <Parameter Name="FrecuenciaRespiratoria" Type="int" Mode="In" />
+    <Parameter Name="PresionSistolica" Type="float" Mode="In" />
+    <Parameter Name="PresionDiastolica" Type="float" Mode="In" />
+    <Parameter Name="Temperatura" Type="float" Mode="In" />
+    <Parameter Name="Exploratorio" Type="nvarchar(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_alterdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_creatediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="version" Type="int" Mode="In" />
+    <Parameter Name="definition" Type="varbinary(max)" Mode="In" />
+  </Function>
+  <Function Name="sp_dropdiagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagramdefinition" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_helpdiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_renamediagram" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="diagramname" Type="nvarchar" Mode="In" />
+    <Parameter Name="owner_id" Type="int" Mode="In" />
+    <Parameter Name="new_diagramname" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_upgraddiagrams" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Vacuna_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="NumeroDosis" Type="int" Mode="In" />
+    <Parameter Name="Observacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <Function Name="Vacuna_Eliminar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Vacuna_Insertar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
+    <Parameter Name="NumeroDosis" Type="int" Mode="In" />
+    <Parameter Name="Observacion" Type="nvarchar(max)" Mode="In" />
+    <Parameter Name="Activo" Type="bit" Mode="In" />
+  </Function>
+  <EntityContainer Name="ConsultorioPediatricoBDModelStoreContainer">
+    <EntitySet Name="AntecedentePersonalV" EntityType="Self.AntecedentePersonalV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[AntecedentePersonalV].[Id] AS [Id], 
+[AntecedentePersonalV].[IDPaciente] AS [IDPaciente], 
+[AntecedentePersonalV].[Padecimiento] AS [Padecimiento], 
+[AntecedentePersonalV].[EnfermedadCronica] AS [EnfermedadCronica], 
+[AntecedentePersonalV].[Alergias] AS [Alergias], 
+[AntecedentePersonalV].[Transfusion] AS [Transfusion], 
+[AntecedentePersonalV].[Hospitalizacion] AS [Hospitalizacion], 
+[AntecedentePersonalV].[TipoVivienda] AS [TipoVivienda], 
+[AntecedentePersonalV].[HabitoHigiene] AS [HabitoHigiene], 
+[AntecedentePersonalV].[HabitoAlimentacion] AS [HabitoAlimentacion], 
+[AntecedentePersonalV].[DesarrolloSocial] AS [DesarrolloSocial], 
+[AntecedentePersonalV].[Activo] AS [Activo], 
+[AntecedentePersonalV].[Cirugias] AS [Cirugias]
+FROM [dbo].[AntecedentePersonalV] AS [AntecedentePersonalV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarConsultaV" EntityType="Self.CargarConsultaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarConsultaV].[Id] AS [Id], 
+[CargarConsultaV].[HistoriaActual] AS [HistoriaActual], 
+[CargarConsultaV].[IDExpediente] AS [IDExpediente], 
+[CargarConsultaV].[Diagnostico] AS [Diagnostico], 
+[CargarConsultaV].[Observaciones] AS [Observaciones], 
+[CargarConsultaV].[Tratamiento] AS [Tratamiento], 
+[CargarConsultaV].[IDMedico] AS [IDMedico], 
+[CargarConsultaV].[Activo] AS [Activo], 
+[CargarConsultaV].[IdSomatometria] AS [IdSomatometria], 
+[CargarConsultaV].[IDConsulta] AS [IDConsulta], 
+[CargarConsultaV].[Peso] AS [Peso], 
+[CargarConsultaV].[Estatura] AS [Estatura], 
+[CargarConsultaV].[PerimetroCefalico] AS [PerimetroCefalico], 
+[CargarConsultaV].[PerimetroAbdominal] AS [PerimetroAbdominal], 
+[CargarConsultaV].[PerimetroToracico] AS [PerimetroToracico], 
+[CargarConsultaV].[FrecuenciaCardiaca] AS [FrecuenciaCardiaca], 
+[CargarConsultaV].[FrecuenciaRespiratoria] AS [FrecuenciaRespiratoria], 
+[CargarConsultaV].[PresionSistolica] AS [PresionSistolica], 
+[CargarConsultaV].[PresionDiastolica] AS [PresionDiastolica], 
+[CargarConsultaV].[Temperatura] AS [Temperatura], 
+[CargarConsultaV].[Exploratorio] AS [Exploratorio], 
+[CargarConsultaV].[Fecha] AS [Fecha]
+FROM [dbo].[CargarConsultaV] AS [CargarConsultaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarDosisVacunaPersonalizadaV" EntityType="Self.CargarDosisVacunaPersonalizadaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarDosisVacunaPersonalizadaV].[IdDosis] AS [IdDosis], 
+[CargarDosisVacunaPersonalizadaV].[IdVacuna] AS [IdVacuna], 
+[CargarDosisVacunaPersonalizadaV].[IDExpediente] AS [IDExpediente], 
+[CargarDosisVacunaPersonalizadaV].[Nombre] AS [Nombre], 
+[CargarDosisVacunaPersonalizadaV].[NumeroDosis] AS [NumeroDosis], 
+[CargarDosisVacunaPersonalizadaV].[FechaAplicacion] AS [FechaAplicacion], 
+[CargarDosisVacunaPersonalizadaV].[Notas] AS [Notas], 
+[CargarDosisVacunaPersonalizadaV].[Activo] AS [Activo], 
+[CargarDosisVacunaPersonalizadaV].[enConsultorio] AS [enConsultorio]
+FROM [dbo].[CargarDosisVacunaPersonalizadaV] AS [CargarDosisVacunaPersonalizadaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarExamenPersonalizadoV" EntityType="Self.CargarExamenPersonalizadoV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarExamenPersonalizadoV].[Id] AS [Id], 
+[CargarExamenPersonalizadoV].[IDExpediente] AS [IDExpediente], 
+[CargarExamenPersonalizadoV].[Nombre Examen] AS [Nombre Examen], 
+[CargarExamenPersonalizadoV].[Notas] AS [Notas], 
+[CargarExamenPersonalizadoV].[Imagen] AS [Imagen], 
+[CargarExamenPersonalizadoV].[FechaQueSeRealizo] AS [FechaQueSeRealizo], 
+[CargarExamenPersonalizadoV].[Activo] AS [Activo]
+FROM [dbo].[CargarExamenPersonalizadoV] AS [CargarExamenPersonalizadoV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarInformacionFamiliarPersonalizadaV" EntityType="Self.CargarInformacionFamiliarPersonalizadaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarInformacionFamiliarPersonalizadaV].[Id] AS [Id], 
+[CargarInformacionFamiliarPersonalizadaV].[IDPaciente] AS [IDPaciente], 
+[CargarInformacionFamiliarPersonalizadaV].[IdHistoria] AS [IdHistoria], 
+[CargarInformacionFamiliarPersonalizadaV].[Nombre] AS [Nombre], 
+[CargarInformacionFamiliarPersonalizadaV].[Observacion] AS [Observacion], 
+[CargarInformacionFamiliarPersonalizadaV].[Parentesco] AS [Parentesco], 
+[CargarInformacionFamiliarPersonalizadaV].[Paciente] AS [Paciente]
+FROM [dbo].[CargarInformacionFamiliarPersonalizadaV] AS [CargarInformacionFamiliarPersonalizadaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarInformacionFamiliarV" EntityType="Self.CargarInformacionFamiliarV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarInformacionFamiliarV].[Id] AS [Id], 
+[CargarInformacionFamiliarV].[IdHistoria] AS [IdHistoria], 
+[CargarInformacionFamiliarV].[Nombre] AS [Nombre], 
+[CargarInformacionFamiliarV].[IDParentesco] AS [IDParentesco], 
+[CargarInformacionFamiliarV].[Parentesco] AS [Parentesco], 
+[CargarInformacionFamiliarV].[IDGrupoSanguineo] AS [IDGrupoSanguineo], 
+[CargarInformacionFamiliarV].[NombreGrupo] AS [NombreGrupo], 
+[CargarInformacionFamiliarV].[TelContacto] AS [TelContacto], 
+[CargarInformacionFamiliarV].[Anotaciones] AS [Anotaciones], 
+[CargarInformacionFamiliarV].[CondicionMedica] AS [CondicionMedica], 
+[CargarInformacionFamiliarV].[Activo] AS [Activo], 
+[CargarInformacionFamiliarV].[IdPaciente] AS [IdPaciente]
+FROM [dbo].[CargarInformacionFamiliarV] AS [CargarInformacionFamiliarV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="CargarPacientesV" EntityType="Self.CargarPacientesV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[CargarPacientesV].[Id] AS [Id], 
+[CargarPacientesV].[Nombre] AS [Nombre], 
+[CargarPacientesV].[Segundo Nombre] AS [Segundo Nombre], 
+[CargarPacientesV].[Apellido] AS [Apellido], 
+[CargarPacientesV].[Segundo Apellido] AS [Segundo Apellido], 
+[CargarPacientesV].[Tipo de Sangre] AS [Tipo de Sangre], 
+[CargarPacientesV].[F. Nacimiento] AS [F. Nacimiento], 
+[CargarPacientesV].[Ultima Consulta] AS [Ultima Consulta], 
+[CargarPacientesV].[Activo] AS [Activo]
+FROM [dbo].[CargarPacientesV] AS [CargarPacientesV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ConsultaV" EntityType="Self.ConsultaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ConsultaV].[Id] AS [Id], 
+[ConsultaV].[IDExpediente] AS [IDExpediente], 
+[ConsultaV].[Observaciones] AS [Observaciones], 
+[ConsultaV].[Activo] AS [Activo], 
+[ConsultaV].[HistoriaActual] AS [HistoriaActual], 
+[ConsultaV].[Diagnostico] AS [Diagnostico], 
+[ConsultaV].[Tratamiento] AS [Tratamiento], 
+[ConsultaV].[IDMedico] AS [IDMedico], 
+[ConsultaV].[Fecha] AS [Fecha]
+FROM [dbo].[ConsultaV] AS [ConsultaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="DosisVacunaV" EntityType="Self.DosisVacunaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[DosisVacunaV].[Id] AS [Id], 
+[DosisVacunaV].[NumeroDosis] AS [NumeroDosis], 
+[DosisVacunaV].[IDVacuna] AS [IDVacuna], 
+[DosisVacunaV].[FechaAplicacion] AS [FechaAplicacion], 
+[DosisVacunaV].[IDExpediente] AS [IDExpediente], 
+[DosisVacunaV].[Notas] AS [Notas], 
+[DosisVacunaV].[enConsultorio] AS [enConsultorio], 
+[DosisVacunaV].[Activo] AS [Activo]
+FROM [dbo].[DosisVacunaV] AS [DosisVacunaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ExamenV" EntityType="Self.ExamenV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ExamenV].[Id] AS [Id], 
+[ExamenV].[IDExpediente] AS [IDExpediente], 
+[ExamenV].[NombreImagen] AS [NombreImagen], 
+[ExamenV].[FechaQueSeRealizo] AS [FechaQueSeRealizo], 
+[ExamenV].[FechaIngresoBD] AS [FechaIngresoBD], 
+[ExamenV].[Imagen] AS [Imagen], 
+[ExamenV].[Notas] AS [Notas], 
+[ExamenV].[Activo] AS [Activo]
+FROM [dbo].[ExamenV] AS [ExamenV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ExpedienteV" EntityType="Self.ExpedienteV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ExpedienteV].[Id] AS [Id], 
+[ExpedienteV].[IDPaciente] AS [IDPaciente], 
+[ExpedienteV].[Descripcion] AS [Descripcion], 
+[ExpedienteV].[Activo] AS [Activo], 
+[ExpedienteV].[FechaCreacion] AS [FechaCreacion]
+FROM [dbo].[ExpedienteV] AS [ExpedienteV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="GrupoSanguineoV" EntityType="Self.GrupoSanguineoV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[GrupoSanguineoV].[Id] AS [Id], 
+[GrupoSanguineoV].[NombreGrupo] AS [NombreGrupo], 
+[GrupoSanguineoV].[Notas] AS [Notas]
+FROM [dbo].[GrupoSanguineoV] AS [GrupoSanguineoV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="HistoriaClinicaFamiliarV" EntityType="Self.HistoriaClinicaFamiliarV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[HistoriaClinicaFamiliarV].[Id] AS [Id], 
+[HistoriaClinicaFamiliarV].[IDInformacionFamiliar] AS [IDInformacionFamiliar], 
+[HistoriaClinicaFamiliarV].[ObservacionesMedicas] AS [ObservacionesMedicas], 
+[HistoriaClinicaFamiliarV].[IDGrupoSanguineo] AS [IDGrupoSanguineo]
+FROM [dbo].[HistoriaClinicaFamiliarV] AS [HistoriaClinicaFamiliarV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="InformacionFamiliarV" EntityType="Self.InformacionFamiliarV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[InformacionFamiliarV].[Id] AS [Id], 
+[InformacionFamiliarV].[Nombre] AS [Nombre], 
+[InformacionFamiliarV].[IDPaciente] AS [IDPaciente], 
+[InformacionFamiliarV].[IDParentesco] AS [IDParentesco], 
+[InformacionFamiliarV].[TelContacto] AS [TelContacto], 
+[InformacionFamiliarV].[Activo] AS [Activo], 
+[InformacionFamiliarV].[Observaciones] AS [Observaciones]
+FROM [dbo].[InformacionFamiliarV] AS [InformacionFamiliarV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="InformacionNacimientoV" EntityType="Self.InformacionNacimientoV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[InformacionNacimientoV].[Id] AS [Id], 
+[InformacionNacimientoV].[Peso] AS [Peso], 
+[InformacionNacimientoV].[Altura] AS [Altura], 
+[InformacionNacimientoV].[PerimetroCefalico] AS [PerimetroCefalico], 
+[InformacionNacimientoV].[FueCesarea] AS [FueCesarea], 
+[InformacionNacimientoV].[Posicion] AS [Posicion], 
+[InformacionNacimientoV].[Observaciones] AS [Observaciones], 
+[InformacionNacimientoV].[CircularCordon] AS [CircularCordon], 
+[InformacionNacimientoV].[IDPaciente] AS [IDPaciente], 
+[InformacionNacimientoV].[MotivoCesarea] AS [MotivoCesarea], 
+[InformacionNacimientoV].[ComplicacionEmbarazo] AS [ComplicacionEmbarazo], 
+[InformacionNacimientoV].[EnfermedadEmbarazo] AS [EnfermedadEmbarazo], 
+[InformacionNacimientoV].[MedicacionEmbarazo] AS [MedicacionEmbarazo], 
+[InformacionNacimientoV].[EdadGestacional] AS [EdadGestacional]
+FROM [dbo].[InformacionNacimientoV] AS [InformacionNacimientoV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="PacienteV" EntityType="Self.PacienteV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[PacienteV].[Id] AS [Id], 
+[PacienteV].[Nombre1] AS [Nombre1], 
+[PacienteV].[Nombre2] AS [Nombre2], 
+[PacienteV].[Apellido1] AS [Apellido1], 
+[PacienteV].[Apellido2] AS [Apellido2], 
+[PacienteV].[FechaNacimiento] AS [FechaNacimiento], 
+[PacienteV].[NacimientoHospital] AS [NacimientoHospital], 
+[PacienteV].[CiudadNacimiento] AS [CiudadNacimiento], 
+[PacienteV].[LugarNacimiento] AS [LugarNacimiento], 
+[PacienteV].[Direccion] AS [Direccion], 
+[PacienteV].[IDGrupoSanguineo] AS [IDGrupoSanguineo], 
+[PacienteV].[EsNino] AS [EsNino], 
+[PacienteV].[NombrePadre] AS [NombrePadre], 
+[PacienteV].[CedulaPadre] AS [CedulaPadre], 
+[PacienteV].[NombreMadre] AS [NombreMadre], 
+[PacienteV].[CedulaMadre] AS [CedulaMadre], 
+[PacienteV].[Religion] AS [Religion], 
+[PacienteV].[Notas] AS [Notas], 
+[PacienteV].[Origen] AS [Origen], 
+[PacienteV].[Activo] AS [Activo]
+FROM [dbo].[PacienteV] AS [PacienteV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="ParentescoV" EntityType="Self.ParentescoV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ParentescoV].[Id] AS [Id], 
+[ParentescoV].[Nombre] AS [Nombre], 
+[ParentescoV].[Notas] AS [Notas]
+FROM [dbo].[ParentescoV] AS [ParentescoV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="RecetaV" EntityType="Self.RecetaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[RecetaV].[Id] AS [Id], 
+[RecetaV].[IDExpediente] AS [IDExpediente], 
+[RecetaV].[Medicamento] AS [Medicamento], 
+[RecetaV].[Indicacion] AS [Indicacion], 
+[RecetaV].[FechaPrescripcion] AS [FechaPrescripcion], 
+[RecetaV].[Activo] AS [Activo]
+FROM [dbo].[RecetaV] AS [RecetaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="SomatometriaV" EntityType="Self.SomatometriaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[SomatometriaV].[Id] AS [Id], 
+[SomatometriaV].[IDConsulta] AS [IDConsulta], 
+[SomatometriaV].[Exploratorio] AS [Exploratorio], 
+[SomatometriaV].[Temperatura] AS [Temperatura], 
+[SomatometriaV].[PresionDiastolica] AS [PresionDiastolica], 
+[SomatometriaV].[PresionSistolica] AS [PresionSistolica], 
+[SomatometriaV].[FrecuenciaRespiratoria] AS [FrecuenciaRespiratoria], 
+[SomatometriaV].[FrecuenciaCardiaca] AS [FrecuenciaCardiaca], 
+[SomatometriaV].[PerimetroAbdominal] AS [PerimetroAbdominal], 
+[SomatometriaV].[PerimetroToracico] AS [PerimetroToracico], 
+[SomatometriaV].[PerimetroCefalico] AS [PerimetroCefalico], 
+[SomatometriaV].[Estatura] AS [Estatura], 
+[SomatometriaV].[Peso] AS [Peso]
+FROM [dbo].[SomatometriaV] AS [SomatometriaV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="UsuarioV" EntityType="Self.UsuarioV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[UsuarioV].[Id] AS [Id], 
+[UsuarioV].[Username] AS [Username], 
+[UsuarioV].[Password] AS [Password], 
+[UsuarioV].[IDMedico] AS [IDMedico]
+FROM [dbo].[UsuarioV] AS [UsuarioV]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="VacunaV" EntityType="Self.VacunaV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[VacunaV].[Id] AS [Id], 
+[VacunaV].[Nombre] AS [Nombre], 
+[VacunaV].[Observacion] AS [Observacion], 
+[VacunaV].[NumeroDosis] AS [NumeroDosis], 
+[VacunaV].[Activo] AS [Activo]
+FROM [dbo].[VacunaV] AS [VacunaV]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

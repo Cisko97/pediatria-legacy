@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ConsultorioPediatricoBDModelStoreContainer" CdmEntityContainer="ConsultorioPediatricoBDEntities">
+    <EntitySetMapping Name="AntecedentePersonalV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.AntecedentePersonalV">
+        <MappingFragment StoreEntitySet="AntecedentePersonalV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Padecimiento" ColumnName="Padecimiento" />
+          <ScalarProperty Name="EnfermedadCronica" ColumnName="EnfermedadCronica" />
+          <ScalarProperty Name="Alergias" ColumnName="Alergias" />
+          <ScalarProperty Name="Transfusion" ColumnName="Transfusion" />
+          <ScalarProperty Name="Hospitalizacion" ColumnName="Hospitalizacion" />
+          <ScalarProperty Name="TipoVivienda" ColumnName="TipoVivienda" />
+          <ScalarProperty Name="HabitoHigiene" ColumnName="HabitoHigiene" />
+          <ScalarProperty Name="HabitoAlimentacion" ColumnName="HabitoAlimentacion" />
+          <ScalarProperty Name="DesarrolloSocial" ColumnName="DesarrolloSocial" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Cirugias" ColumnName="Cirugias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.AntecedentePersonalV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="DesarrolloSocial" ParameterName="DesarrolloSocial" />
+            <ScalarProperty Name="HabitoAlimentacion" ParameterName="HabitoAlimentacion" />
+            <ScalarProperty Name="HabitoHigiene" ParameterName="HabitoHigiene" />
+            <ScalarProperty Name="TipoVivienda" ParameterName="TipoVivienda" />
+            <ScalarProperty Name="Hospitalizacion" ParameterName="Hospitalizacion" />
+            <ScalarProperty Name="Cirugias" ParameterName="Cirugias" />
+            <ScalarProperty Name="Transfusion" ParameterName="Transfusion" />
+            <ScalarProperty Name="EnfermedadCronica" ParameterName="EnfermedadCronica" />
+            <ScalarProperty Name="Alergias" ParameterName="Alergias" />
+            <ScalarProperty Name="Padecimiento" ParameterName="Padecimiento" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="DesarrolloSocial" ParameterName="DesarrolloSocial" Version="Current" />
+            <ScalarProperty Name="HabitoAlimentacion" ParameterName="HabitoAlimentacion" Version="Current" />
+            <ScalarProperty Name="HabitoHigiene" ParameterName="HabitoHigiene" Version="Current" />
+            <ScalarProperty Name="TipoVivienda" ParameterName="TipoVivienda" Version="Current" />
+            <ScalarProperty Name="Hospitalizacion" ParameterName="Hospitalizacion" Version="Current" />
+            <ScalarProperty Name="Cirugias" ParameterName="Cirugias" Version="Current" />
+            <ScalarProperty Name="Transfusion" ParameterName="Transfusion" Version="Current" />
+            <ScalarProperty Name="EnfermedadCronica" ParameterName="EnfermedadCronica" Version="Current" />
+            <ScalarProperty Name="Alergias" ParameterName="Alergias" Version="Current" />
+            <ScalarProperty Name="Padecimiento" ParameterName="Padecimiento" Version="Current" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarDosisVacunaPersonalizadaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarDosisVacunaPersonalizadaV">
+        <MappingFragment StoreEntitySet="CargarDosisVacunaPersonalizadaV">
+          <ScalarProperty Name="IdDosis" ColumnName="IdDosis" />
+          <ScalarProperty Name="IdVacuna" ColumnName="IdVacuna" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="FechaAplicacion" ColumnName="FechaAplicacion" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="enConsultorio" ColumnName="enConsultorio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarExamenPersonalizadoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarExamenPersonalizadoV">
+        <MappingFragment StoreEntitySet="CargarExamenPersonalizadoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Nombre_Examen" ColumnName="Nombre Examen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="FechaQueSeRealizo" ColumnName="FechaQueSeRealizo" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarInformacionFamiliarPersonalizadaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarInformacionFamiliarPersonalizadaV">
+        <MappingFragment StoreEntitySet="CargarInformacionFamiliarPersonalizadaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Parentesco" ColumnName="Parentesco" />
+          <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarInformacionFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarInformacionFamiliarV">
+        <MappingFragment StoreEntitySet="CargarInformacionFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IDParentesco" ColumnName="IDParentesco" />
+          <ScalarProperty Name="Parentesco" ColumnName="Parentesco" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+          <ScalarProperty Name="TelContacto" ColumnName="TelContacto" />
+          <ScalarProperty Name="Anotaciones" ColumnName="Anotaciones" />
+          <ScalarProperty Name="CondicionMedica" ColumnName="CondicionMedica" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarPacientesV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarPacientesV">
+        <MappingFragment StoreEntitySet="CargarPacientesV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Segundo_Nombre" ColumnName="Segundo Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Segundo_Apellido" ColumnName="Segundo Apellido" />
+          <ScalarProperty Name="Tipo_de_Sangre" ColumnName="Tipo de Sangre" />
+          <ScalarProperty Name="F__Nacimiento" ColumnName="F. Nacimiento" />
+          <ScalarProperty Name="Ultima_Consulta" ColumnName="Ultima Consulta" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConsultaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ConsultaV">
+        <MappingFragment StoreEntitySet="ConsultaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="HistoriaActual" ColumnName="HistoriaActual" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ConsultaV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="IDMedico" ParameterName="IDMedico" />
+            <ScalarProperty Name="HistoriaActual" ParameterName="HistoriaActual" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" />
+            <ScalarProperty Name="Fecha" ParameterName="Fecha" />
+            <ScalarProperty Name="Diagnostico" ParameterName="Diagnostico" />
+            <ScalarProperty Name="Tratamiento" ParameterName="Tratamiento" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="IDMedico" ParameterName="IDMedico" Version="Current" />
+            <ScalarProperty Name="HistoriaActual" ParameterName="HistoriaActual" Version="Current" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" Version="Current" />
+            <ScalarProperty Name="Fecha" ParameterName="Fecha" Version="Current" />
+            <ScalarProperty Name="Tratamiento" ParameterName="Tratamiento" Version="Current" />
+            <ScalarProperty Name="Diagnostico" ParameterName="Diagnostico" Version="Current" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DosisVacunaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.DosisVacunaV">
+        <MappingFragment StoreEntitySet="DosisVacunaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="IDVacuna" ColumnName="IDVacuna" />
+          <ScalarProperty Name="FechaAplicacion" ColumnName="FechaAplicacion" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="enConsultorio" ColumnName="enConsultorio" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.DosisVacunaV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="enConsultorio" ParameterName="enConsultorio" />
+            <ScalarProperty Name="Notas" ParameterName="Notas" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" />
+            <ScalarProperty Name="FechaAplicacion" ParameterName="FechaAplicacion" />
+            <ScalarProperty Name="IDVacuna" ParameterName="IDVacuna" />
+            <ScalarProperty Name="NumeroDosis" ParameterName="NumeroDosis" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="enConsultorio" ParameterName="enConsultorio" Version="Current" />
+            <ScalarProperty Name="Notas" ParameterName="Notas" Version="Current" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" Version="Current" />
+            <ScalarProperty Name="FechaAplicacion" ParameterName="FechaAplicacion" Version="Current" />
+            <ScalarProperty Name="IDVacuna" ParameterName="IDVacuna" Version="Current" />
+            <ScalarProperty Name="NumeroDosis" ParameterName="NumeroDosis" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamenV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExamenV">
+        <MappingFragment StoreEntitySet="ExamenV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="NombreImagen" ColumnName="NombreImagen" />
+          <ScalarProperty Name="FechaQueSeRealizo" ColumnName="FechaQueSeRealizo" />
+          <ScalarProperty Name="FechaIngresoBD" ColumnName="FechaIngresoBD" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExamenV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="Notas" ParameterName="Notas" />
+            <ScalarProperty Name="Imagen" ParameterName="Imagen" />
+            <ScalarProperty Name="FechaIngresoBD" ParameterName="FechaIngresoBD" />
+            <ScalarProperty Name="FechaQueSeRealizo" ParameterName="FechaQueSeRealizo" />
+            <ScalarProperty Name="NombreImagen" ParameterName="NombreImagen" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="Notas" ParameterName="Notas" Version="Current" />
+            <ScalarProperty Name="Imagen" ParameterName="Imagen" Version="Current" />
+            <ScalarProperty Name="FechaIngresoBD" ParameterName="FechaIngresoBD" Version="Current" />
+            <ScalarProperty Name="FechaQueSeRealizo" ParameterName="FechaQueSeRealizo" Version="Current" />
+            <ScalarProperty Name="NombreImagen" ParameterName="NombreImagen" Version="Current" />
+            <ScalarProperty Name="IDExpediente" ParameterName="IDExpediente" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpedienteV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExpedienteV">
+        <MappingFragment StoreEntitySet="ExpedienteV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExpedienteV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="FechaCreacion" ParameterName="FechaCreacion" />
+            <ScalarProperty Name="Descripcion" ParameterName="Descripcion" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="FechaCreacion" ParameterName="FechaCreacion" Version="Current" />
+            <ScalarProperty Name="Descripcion" ParameterName="Descripcion" Version="Current" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrupoSanguineoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.GrupoSanguineoV">
+        <MappingFragment StoreEntitySet="GrupoSanguineoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoriaClinicaFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV">
+        <MappingFragment StoreEntitySet="HistoriaClinicaFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDInformacionFamiliar" ColumnName="IDInformacionFamiliar" />
+          <ScalarProperty Name="ObservacionesMedicas" ColumnName="ObservacionesMedicas" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Insertar">
+            <ScalarProperty Name="IDGrupoSanguineo" ParameterName="IDGrupoSanguineo" />
+            <ScalarProperty Name="ObservacionesMedicas" ParameterName="ObservacionesMedicas" />
+            <ScalarProperty Name="IDInformacionFamiliar" ParameterName="IDInformacionFamiliar" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Actualizar">
+            <ScalarProperty Name="IDGrupoSanguineo" ParameterName="IDGrupoSanguineo" Version="Current" />
+            <ScalarProperty Name="ObservacionesMedicas" ParameterName="ObservacionesMedicas" Version="Current" />
+            <ScalarProperty Name="IDInformacionFamiliar" ParameterName="IDInformacionFamiliar" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionFamiliarV">
+        <MappingFragment StoreEntitySet="InformacionFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="IDParentesco" ColumnName="IDParentesco" />
+          <ScalarProperty Name="TelContacto" ColumnName="TelContacto" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionFamiliarV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" />
+            <ScalarProperty Name="TelContacto" ParameterName="TelContacto" />
+            <ScalarProperty Name="IDParentesco" ParameterName="IDParentesco" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" />
+            <ScalarProperty Name="Nombre" ParameterName="Nombre" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" Version="Current" />
+            <ScalarProperty Name="TelContacto" ParameterName="TelContacto" Version="Current" />
+            <ScalarProperty Name="IDParentesco" ParameterName="IDParentesco" Version="Current" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" Version="Current" />
+            <ScalarProperty Name="Nombre" ParameterName="Nombre" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionNacimientoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionNacimientoV">
+        <MappingFragment StoreEntitySet="InformacionNacimientoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Altura" ColumnName="Altura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="FueCesarea" ColumnName="FueCesarea" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="CircularCordon" ColumnName="CircularCordon" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="MotivoCesarea" ColumnName="MotivoCesarea" />
+          <ScalarProperty Name="ComplicacionEmbarazo" ColumnName="ComplicacionEmbarazo" />
+          <ScalarProperty Name="EnfermedadEmbarazo" ColumnName="EnfermedadEmbarazo" />
+          <ScalarProperty Name="MedicacionEmbarazo" ColumnName="MedicacionEmbarazo" />
+          <ScalarProperty Name="EdadGestacional" ColumnName="EdadGestacional" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionNacimientoV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Insertar">
+            <ScalarProperty Name="EdadGestacional" ParameterName="EdadGestacional" />
+            <ScalarProperty Name="MedicacionEmbarazo" ParameterName="MedicacionEmbarazo" />
+            <ScalarProperty Name="ComplicacionEmbarazo" ParameterName="ComplicacionEmbarazo" />
+            <ScalarProperty Name="EnfermedadEmbarazo" ParameterName="EnfermedadEmbarazo" />
+            <ScalarProperty Name="MotivoCesarea" ParameterName="MotivoCesarea" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" />
+            <ScalarProperty Name="CircularCordon" ParameterName="CircularCordon" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" />
+            <ScalarProperty Name="Posicion" ParameterName="Posicion" />
+            <ScalarProperty Name="FueCesarea" ParameterName="FueCesarea" />
+            <ScalarProperty Name="PerimetroCefalico" ParameterName="PerimetroCefalico" />
+            <ScalarProperty Name="Altura" ParameterName="Altura" />
+            <ScalarProperty Name="Peso" ParameterName="Peso" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Actualizar">
+            <ScalarProperty Name="EdadGestacional" ParameterName="EdadGestacional" Version="Current" />
+            <ScalarProperty Name="MedicacionEmbarazo" ParameterName="MedicacionEmbarazo" Version="Current" />
+            <ScalarProperty Name="ComplicacionEmbarazo" ParameterName="ComplicacionEmbarazo" Version="Current" />
+            <ScalarProperty Name="EnfermedadEmbarazo" ParameterName="EnfermedadEmbarazo" Version="Current" />
+            <ScalarProperty Name="MotivoCesarea" ParameterName="MotivoCesarea" Version="Current" />
+            <ScalarProperty Name="IDPaciente" ParameterName="IDPaciente" Version="Current" />
+            <ScalarProperty Name="CircularCordon" ParameterName="CircularCordon" Version="Current" />
+            <ScalarProperty Name="Observaciones" ParameterName="Observaciones" Version="Current" />
+            <ScalarProperty Name="Posicion" ParameterName="Posicion" Version="Current" />
+            <ScalarProperty Name="FueCesarea" ParameterName="FueCesarea" Version="Current" />
+            <ScalarProperty Name="PerimetroCefalico" ParameterName="PerimetroCefalico" Version="Current" />
+            <ScalarProperty Name="Altura" ParameterName="Altura" Version="Current" />
+            <ScalarProperty Name="Peso" ParameterName="Peso" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParentescoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ParentescoV">
+        <MappingFragment StoreEntitySet="ParentescoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecetaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.RecetaV">
+        <MappingFragment StoreEntitySet="RecetaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Medicamento" ColumnName="Medicamento" />
+          <ScalarProperty Name="Indicacion" ColumnName="Indicacion" />
+          <ScalarProperty Name="FechaPrescripcion" ColumnName="FechaPrescripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsuarioV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.UsuarioV">
+        <MappingFragment StoreEntitySet="UsuarioV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacunaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.VacunaV">
+        <MappingFragment StoreEntitySet="VacunaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.VacunaV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Insertar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="Observacion" ParameterName="Observacion" />
+            <ScalarProperty Name="NumeroDosis" ParameterName="NumeroDosis" />
+            <ScalarProperty Name="Nombre" ParameterName="Nombre" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="Observacion" ParameterName="Observacion" Version="Current" />
+            <ScalarProperty Name="NumeroDosis" ParameterName="NumeroDosis" Version="Current" />
+            <ScalarProperty Name="Nombre" ParameterName="Nombre" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AntecedentePersonal_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Actualizar" />
+    <FunctionImportMapping FunctionImportName="AntecedentePersonal_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Insertar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Insertar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Actualizar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Eliminar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Insertar" />
+    <FunctionImportMapping FunctionImportName="Examen_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Examen_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Examen_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Insertar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Insertar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Actualizar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Eliminar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Insertar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Actualizar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Eliminar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Insertar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Actualizar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Eliminar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Insertar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Actualizar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Eliminar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Insertar" />
+    <FunctionImportMapping FunctionImportName="ObtenerEdad" FunctionName="ConsultorioPediatricoBDModel.Store.ObtenerEdad" />
+    <FunctionImportMapping FunctionImportName="ObtenerEdadConsulta" FunctionName="ConsultorioPediatricoBDModel.Store.ObtenerEdadConsulta" />
+    <FunctionImportMapping FunctionImportName="Paciente_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Paciente_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Paciente_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Insertar" />
+    <FunctionImportMapping FunctionImportName="PacienteEliminarCascada" FunctionName="ConsultorioPediatricoBDModel.Store.PacienteEliminarCascada" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Insertar" />
+    <FunctionImportMapping FunctionImportName="Somatometria_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Somatometria_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Somatometria_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Insertar" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="ConsultorioPediatricoBDModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="ConsultorioPediatricoBDModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="ConsultorioPediatricoBDModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Insertar" />
+    <EntitySetMapping Name="PacienteV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.PacienteV">
+        <MappingFragment StoreEntitySet="PacienteV">
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="CedulaMadre" ColumnName="CedulaMadre" />
+          <ScalarProperty Name="NombreMadre" ColumnName="NombreMadre" />
+          <ScalarProperty Name="CedulaPadre" ColumnName="CedulaPadre" />
+          <ScalarProperty Name="NombrePadre" ColumnName="NombrePadre" />
+          <ScalarProperty Name="EsNino" ColumnName="EsNino" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+          <ScalarProperty Name="CiudadNacimiento" ColumnName="CiudadNacimiento" />
+          <ScalarProperty Name="NacimientoHospital" ColumnName="NacimientoHospital" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="Apellido2" ColumnName="Apellido2" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+          <ScalarProperty Name="Nombre2" ColumnName="Nombre2" />
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.PacienteV">
+        <ModificationFunctionMapping>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Actualizar">
+            <ScalarProperty Name="Activo" ParameterName="Activo" Version="Current" />
+            <ScalarProperty Name="Origen" ParameterName="Origen" Version="Current" />
+            <ScalarProperty Name="Notas" ParameterName="Notas" Version="Current" />
+            <ScalarProperty Name="Religion" ParameterName="Religion" Version="Current" />
+            <ScalarProperty Name="CedulaMadre" ParameterName="CedulaMadre" Version="Current" />
+            <ScalarProperty Name="NombreMadre" ParameterName="NombreMadre" Version="Current" />
+            <ScalarProperty Name="CedulaPadre" ParameterName="CedulaPadre" Version="Current" />
+            <ScalarProperty Name="NombrePadre" ParameterName="NombrePadre" Version="Current" />
+            <ScalarProperty Name="EsNino" ParameterName="EsNino" Version="Current" />
+            <ScalarProperty Name="IDGrupoSanguineo" ParameterName="IDGrupoSanguineo" Version="Current" />
+            <ScalarProperty Name="Direccion" ParameterName="Direccion" Version="Current" />
+            <ScalarProperty Name="LugarNacimiento" ParameterName="LugarNacimiento" Version="Current" />
+            <ScalarProperty Name="CiudadNacimiento" ParameterName="CiudadNacimiento" Version="Current" />
+            <ScalarProperty Name="NacimientoHospital" ParameterName="NacimientoHospital" Version="Current" />
+            <ScalarProperty Name="FechaNacimiento" ParameterName="FechaNacimiento" Version="Current" />
+            <ScalarProperty Name="Apellido2" ParameterName="Apellido2" Version="Current" />
+            <ScalarProperty Name="Apellido1" ParameterName="Apellido1" Version="Current" />
+            <ScalarProperty Name="Nombre2" ParameterName="Nombre2" Version="Current" />
+            <ScalarProperty Name="Nombre1" ParameterName="Nombre1" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+          <DeleteFunction FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Eliminar">
+            <ScalarProperty Name="Id" ParameterName="Id" />
+          </DeleteFunction>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Insertar">
+            <ScalarProperty Name="Notas" ParameterName="Notas" />
+            <ScalarProperty Name="Activo" ParameterName="Activo" />
+            <ScalarProperty Name="Origen" ParameterName="Origen" />
+            <ScalarProperty Name="Religion" ParameterName="Religion" />
+            <ScalarProperty Name="CedulaMadre" ParameterName="CedulaMadre" />
+            <ScalarProperty Name="NombreMadre" ParameterName="NombreMadre" />
+            <ScalarProperty Name="CedulaPadre" ParameterName="CedulaPadre" />
+            <ScalarProperty Name="NombrePadre" ParameterName="NombrePadre" />
+            <ScalarProperty Name="EsNino" ParameterName="EsNino" />
+            <ScalarProperty Name="IDGrupoSanguineo" ParameterName="IDGrupoSanguineo" />
+            <ScalarProperty Name="Direccion" ParameterName="Direccion" />
+            <ScalarProperty Name="LugarNacimiento" ParameterName="LugarNacimiento" />
+            <ScalarProperty Name="CiudadNacimiento" ParameterName="CiudadNacimiento" />
+            <ScalarProperty Name="NacimientoHospital" ParameterName="NacimientoHospital" />
+            <ScalarProperty Name="FechaNacimiento" ParameterName="FechaNacimiento" />
+            <ScalarProperty Name="Apellido2" ParameterName="Apellido2" />
+            <ScalarProperty Name="Apellido1" ParameterName="Apellido1" />
+            <ScalarProperty Name="Nombre2" ParameterName="Nombre2" />
+            <ScalarProperty Name="Nombre1" ParameterName="Nombre1" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SomatometriaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.SomatometriaV">
+        <MappingFragment StoreEntitySet="SomatometriaV">
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="PerimetroToracico" ColumnName="PerimetroToracico" />
+          <ScalarProperty Name="PerimetroAbdominal" ColumnName="PerimetroAbdominal" />
+          <ScalarProperty Name="FrecuenciaCardiaca" ColumnName="FrecuenciaCardiaca" />
+          <ScalarProperty Name="FrecuenciaRespiratoria" ColumnName="FrecuenciaRespiratoria" />
+          <ScalarProperty Name="PresionSistolica" ColumnName="PresionSistolica" />
+          <ScalarProperty Name="PresionDiastolica" ColumnName="PresionDiastolica" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="Exploratorio" ColumnName="Exploratorio" />
+          <ScalarProperty Name="IDConsulta" ColumnName="IDConsulta" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.SomatometriaV">
+        <ModificationFunctionMapping>
+          <InsertFunction FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Insertar">
+            <ScalarProperty Name="Exploratorio" ParameterName="Exploratorio" />
+            <ScalarProperty Name="Temperatura" ParameterName="Temperatura" />
+            <ScalarProperty Name="PresionDiastolica" ParameterName="PresionDiastolica" />
+            <ScalarProperty Name="PresionSistolica" ParameterName="PresionSistolica" />
+            <ScalarProperty Name="FrecuenciaRespiratoria" ParameterName="FrecuenciaRespiratoria" />
+            <ScalarProperty Name="FrecuenciaCardiaca" ParameterName="FrecuenciaCardiaca" />
+            <ScalarProperty Name="PerimetroToracico" ParameterName="PerimetroToracico" />
+            <ScalarProperty Name="PerimetroAbdominal" ParameterName="PerimetroAbdominal" />
+            <ScalarProperty Name="PerimetroCefalico" ParameterName="PerimetroCefalico" />
+            <ScalarProperty Name="Estatura" ParameterName="Estatura" />
+            <ScalarProperty Name="Peso" ParameterName="Peso" />
+            <ScalarProperty Name="IDConsulta" ParameterName="IDConsulta" />
+            <ResultBinding Name="Id" ColumnName="Id" />
+          </InsertFunction>
+          <UpdateFunction FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Actualizar">
+            <ScalarProperty Name="Exploratorio" ParameterName="Exploratorio" Version="Current" />
+            <ScalarProperty Name="Temperatura" ParameterName="Temperatura" Version="Current" />
+            <ScalarProperty Name="PresionDiastolica" ParameterName="PresionDiastolica" Version="Current" />
+            <ScalarProperty Name="PresionSistolica" ParameterName="PresionSistolica" Version="Current" />
+            <ScalarProperty Name="FrecuenciaRespiratoria" ParameterName="FrecuenciaRespiratoria" Version="Current" />
+            <ScalarProperty Name="FrecuenciaCardiaca" ParameterName="FrecuenciaCardiaca" Version="Current" />
+            <ScalarProperty Name="PerimetroToracico" ParameterName="PerimetroToracico" Version="Current" />
+            <ScalarProperty Name="PerimetroAbdominal" ParameterName="PerimetroAbdominal" Version="Current" />
+            <ScalarProperty Name="PerimetroCefalico" ParameterName="PerimetroCefalico" Version="Current" />
+            <ScalarProperty Name="Estatura" ParameterName="Estatura" Version="Current" />
+            <ScalarProperty Name="Peso" ParameterName="Peso" Version="Current" />
+            <ScalarProperty Name="IDConsulta" ParameterName="IDConsulta" Version="Current" />
+            <ScalarProperty Name="Id" ParameterName="Id" Version="Current" />
+          </UpdateFunction>
+        </ModificationFunctionMapping>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarConsultaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarConsultaV">
+        <MappingFragment StoreEntitySet="CargarConsultaV">
+          <ScalarProperty Name="Exploratorio" ColumnName="Exploratorio" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="PresionDiastolica" ColumnName="PresionDiastolica" />
+          <ScalarProperty Name="PresionSistolica" ColumnName="PresionSistolica" />
+          <ScalarProperty Name="FrecuenciaRespiratoria" ColumnName="FrecuenciaRespiratoria" />
+          <ScalarProperty Name="FrecuenciaCardiaca" ColumnName="FrecuenciaCardiaca" />
+          <ScalarProperty Name="PerimetroToracico" ColumnName="PerimetroToracico" />
+          <ScalarProperty Name="PerimetroAbdominal" ColumnName="PerimetroAbdominal" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="IDConsulta" ColumnName="IDConsulta" />
+          <ScalarProperty Name="IdSomatometria" ColumnName="IdSomatometria" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="HistoriaActual" ColumnName="HistoriaActual" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

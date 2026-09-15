@@ -1,0 +1,431 @@
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmMenuReportes.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRecetaMedica.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.frmRestaurarConsulta.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAcercaDe.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarPaciente.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmAgregarVacuna.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmBoxInicio.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarConsultasPaciente.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmCargarPaciente.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmLogin.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmPacienteEliminar.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmNuevaConsulta.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.PresentationLayer.frmRestaurarDosisVacunas.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptConsultasPaciente.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptListaPacientes.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.rptSomatometriaXPaciente.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmCurvaPeso.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.frmDiagnosticos.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.Stats.testEstadistica.resources
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaPresentacion\obj\Debug\CapaPresentacion.pdb

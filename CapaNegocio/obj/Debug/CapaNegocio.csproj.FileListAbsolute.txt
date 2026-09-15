@@ -1,0 +1,138 @@
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaNegocio\obj\Debug\CapaNegocio.pdb

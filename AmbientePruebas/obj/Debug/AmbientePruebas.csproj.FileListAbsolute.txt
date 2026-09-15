@@ -1,0 +1,280 @@
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\AmbientePruebas.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\stdole.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\ConsultorioPediatrico.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\obj\Debug\AmbientePruebas.csprojAssemblyReference.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CopyComplete
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\obj\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\AmbientePruebas\obj\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\stdole.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csprojAssemblyReference.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CopyComplete
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CopyComplete
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\AmbientePruebas\obj\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\AmbientePruebas.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaNegocio.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaPresentacion.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\EntityFramework.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\FlashControlV71.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\stdole.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaDato.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaNegocio.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\CapaPresentacion.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\ConsultorioPediatrico.exe.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\bin\Debug\EntityFramework.xml
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\AmbientePruebas\obj\Debug\AmbientePruebas.pdb

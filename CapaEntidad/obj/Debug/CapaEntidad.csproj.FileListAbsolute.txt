@@ -1,0 +1,78 @@
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\David\Downloads\Pediatria3Capas-master\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\David\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sandav\Source\Repos\Pediatria3Capas\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Leonardo\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sandav\Downloads\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\SistemaPediatria\Pediatria3Capas-master2\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD Entregable\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csprojAssemblyReference.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.pdb
