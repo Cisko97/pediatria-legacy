@@ -59,33 +59,182 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AntecedentePersonal.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="AntecedentePersonalDataAccess.cs" />
+    <Compile Include="AntecedentePersonalV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CargarConsultaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CargarDosisVacunaPersonalizadaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CargarExamenPersonalizadoV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CargarInformacionFamiliarPersonalizadaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CargarInformacionFamiliarV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="CargarPacienteDataAccess.cs" />
+    <Compile Include="CargarPacientesV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Cita.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="ConexionDataAcces.cs" />
+    <Compile Include="Consulta.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="ConsultaDataAccess.cs" />
+    <Compile Include="ConsultaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DosisVacuna.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="DosisVacunaDataAccess.cs" />
+    <Compile Include="DosisVacunaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Examen.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="ExamenDataAccess.cs" />
+    <Compile Include="ExamenV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Expediente.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="ExpedienteDataAccess.cs" />
+    <Compile Include="ExpedienteV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GrupoSanguineo.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="GrupoSanguineoDataAccess.cs" />
+    <Compile Include="GrupoSanguineoV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HistoriaClinicaFamiliar.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="HistoriaClinicaFamiliarDataAccess.cs" />
+    <Compile Include="HistoriaClinicaFamiliarV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionFamiliar.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="InformacionFamiliarDataAccess.cs" />
+    <Compile Include="InformacionFamiliarV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InformacionNacimiento.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="InformacionNacimientoDataAccess.cs" />
+    <Compile Include="InformacionNacimientoV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListaPacientesV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Medico.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="PacienteDataAccess.cs" />
+    <Compile Include="PacienteV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parentesco.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="ParentescoDataAccess.cs" />
+    <Compile Include="ParentescoV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="PediatriaEntities.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PediatriaEntities.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PediatriaEntities.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
     </Compile>
     <Compile Include="PediatriaEntities.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>PediatriaEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Permiso.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Receta.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RecetaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_ConsultaXPaciente_Result.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reporte_SomatometriaXPaciente_Result.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rol.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RolPermiso.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RolUsuario.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Somatometria.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="SomatometriaDataAccess.cs" />
+    <Compile Include="SomatometriaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="UsuarioDataAccess.cs" />
+    <Compile Include="UsuarioV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vacuna.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
     <Compile Include="VacunaDataAccess.cs" />
+    <Compile Include="VacunaV.cs">
+      <DependentUpon>PediatriaEntities.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
@@ -94,12 +243,6 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>PediatriaEntities.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="PediatriaEntities.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>PediatriaEntities.edmx</DependentUpon>
-      <LastGenOutput>PediatriaEntities.Context.cs</LastGenOutput>
-      <CustomToolNamespace>CapaEntidad</CustomToolNamespace>
-    </None>
     <None Include="PediatriaEntities.edmx.diagram">
       <DependentUpon>PediatriaEntities.edmx</DependentUpon>
     </None>
@@ -112,6 +255,18 @@
       <Project>{f840e0be-ee98-4995-84bb-535d69b09aa6}</Project>
       <Name>CapaEntidad</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PediatriaEntities.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PediatriaEntities.edmx</DependentUpon>
+      <LastGenOutput>PediatriaEntities.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="PediatriaEntities.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>PediatriaEntities.edmx</DependentUpon>
+      <LastGenOutput>PediatriaEntities.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

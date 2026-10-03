@@ -56,7 +56,7 @@ namespace CapaPresentacion.PresentationLayer
         }
 
         PacienteNegocio pacienteNegocio = new PacienteNegocio();
-        ParentescoNegocio parentescoNeg = new ParentescoNegocio();
+   //     ParentescoNegocio parentescoNeg = new ParentescoNegocio();
         GrupoSanguineoNegocio sanguineoNeg = new GrupoSanguineoNegocio();
         InformacionNacimientoNegocio nacimientoNeg = new InformacionNacimientoNegocio();
 
@@ -85,7 +85,7 @@ namespace CapaPresentacion.PresentationLayer
             CargarDatosPacienteTabGeneral();
             CargarExamenPaciente();
             Cargar_vacuna();
-            Cargar_Parentesco();
+           // Cargar_Parentesco();
             Cargar_InfoFamiliar();
             CargarInformacionNacimiento();
             CargarAntecedentes();
@@ -99,16 +99,18 @@ namespace CapaPresentacion.PresentationLayer
 
         #region PARENTESCO
 
-        private void Cargar_Parentesco()
-        {
+        /*  private void Cargar_Parentesco()
+           {
 
-            var catalogoParentesco = parentescoNeg.ParentescoObtenerTodos();
+               var catalogoParentesco = parentescoNeg.ParentescoObtenerTodos();
 
-            cmbParentesco.ValueMember = "Id";
-            cmbParentesco.DisplayMember = "Nombre";
-            cmbParentesco.DataSource = catalogoParentesco;
-        }
+               cmbParentesco.ValueMember = "Id";
+               cmbParentesco.DisplayMember = "Nombre";
+               cmbParentesco.DataSource = catalogoParentesco;
+           }
 
+
+           */
         #endregion
 
         #region GRUPO_SANGUÍNEO
@@ -606,7 +608,7 @@ namespace CapaPresentacion.PresentationLayer
             dgvFamiliares.Columns[3].Visible = false;
             dgvFamiliares.Columns[4].Visible = false;
             dgvFamiliares.Columns[5].Visible = false;
-            dgvFamiliares.Columns[12].Visible = false;
+           // dgvFamiliares.Columns[12].Visible = false;
 
         }
         private void btnRestaurarFamiliar_Click(object sender, EventArgs e)

@@ -4,28 +4,71 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="49d2599ac0ce45e4b3e2ed75942099d4" Name="Diagram1" ZoomLevel="67">
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.AntecedentePersonalV" Width="1.75" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarDosisVacunaPersonalizadaV" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarExamenPersonalizadoV" Width="1.5" PointX="4.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarPersonalizadaV" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarV" Width="1.5" PointX="2.5" PointY="4.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarPacientesV" Width="1.5" PointX="6.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ConsultaV" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.DosisVacunaV" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExamenV" Width="1.5" PointX="8.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExpedienteV" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.GrupoSanguineoV" Width="1.5" PointX="6.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV" Width="1.5" PointX="8.75" PointY="8.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionFamiliarV" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionNacimientoV" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ParentescoV" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.RecetaV" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.UsuarioV" Width="1.5" PointX="1" PointY="11.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.VacunaV" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.PacienteV" Width="1.5" PointX="11.375" PointY="9.75" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.SomatometriaV" Width="1.5" PointX="3.625" PointY="14.75" />
-        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarConsultaV" Width="1.5" PointX="13.375" PointY="8.75" />
+      <Diagram DiagramId="b11928c98aa14ea7b8ddbd7b750985c1" Name="Diagram1">
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.AntecedentePersonal" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Cita" Width="1.5" PointX="5.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Consulta" Width="1.5" PointX="7.5" PointY="19.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.DosisVacuna" Width="1.5" PointX="10.5" PointY="24" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Examen" Width="1.5" PointX="7.5" PointY="27.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Expediente" Width="1.5" PointX="5.25" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.GrupoSanguineo" Width="1.5" PointX="0.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliar" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionFamiliar" Width="1.5" PointX="5.25" PointY="27.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionNacimiento" Width="1.5" PointX="5.25" PointY="35" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Medico" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Paciente" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Parentesco" Width="1.5" PointX="3" PointY="28.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Permiso" Width="1.5" PointX="3" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Rol" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.RolPermiso" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.RolUsuario" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Somatometria" Width="1.5" PointX="9.75" PointY="19" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Usuario" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Vacuna" Width="1.5" PointX="8.25" PointY="24.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.Receta" Width="1.5" PointX="7.5" PointY="31.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.AntecedentePersonalV" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarConsultaV" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarDosisVacunaPersonalizadaV" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarExamenPersonalizadoV" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarPersonalizadaV" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarInformacionFamiliarV" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.CargarPacientesV" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ConsultaV" Width="1.5" PointX="11.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.DosisVacunaV" Width="1.5" PointX="11.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExamenV" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ExpedienteV" Width="1.5" PointX="13.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.GrupoSanguineoV" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionFamiliarV" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.InformacionNacimientoV" Width="1.5" PointX="11.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ListaPacientesV" Width="1.5" PointX="13.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.PacienteV" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.ParentescoV" Width="1.5" PointX="15.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.RecetaV" Width="1.5" PointX="15.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.SomatometriaV" Width="1.5" PointX="15.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.UsuarioV" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ConsultorioPediatricoBDModel.VacunaV" Width="1.5" PointX="17.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_AntecedentePersonal_Paciente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Cita_Paciente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Consulta_Expediente1" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Somatometria_Consulta" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_DosisVacuna_Expediente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_DosisVacuna_Vacuna1" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Examen_Expediente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Expediente_Paciente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Receta_Expediente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_HistoriaClinicaFamiliar_GrupoSanguineo" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Paciente_GrupoSanguineo" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_HistoriaClinicaFamiliar_InformacionFamiliar" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_InformacionFamiliar_Paciente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_InformacionFamiliar_Parentesco" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_InformacionNacimiento_Paciente" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_Usuario_Medico" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_RolPermiso_Permiso" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_RolPermiso_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_RolUsuario_Rol" ManuallyRouted="false" />
+        <AssociationConnector Association="ConsultorioPediatricoBDModel.FK_RolUsuario_Usuario" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

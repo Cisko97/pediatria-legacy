@@ -1,12 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Descargas\\CD Tesis\\CD Tesis\\C\u00F3digo Fuente\\",
-  "Documents": [],
+  "WorkspaceRootPath": "E:\\workspace\\pediatria-legacy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\workspace\\pediatria-legacy\\AmbientePruebas\\bin\\Debug\\CapaDato.dll.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AmbientePruebas\\bin\\Debug\\CapaDato.dll.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|E:\\workspace\\pediatria-legacy\\capapresentacion\\presentationlayer\\frmpacientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\presentationlayer\\frmpacientehome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|E:\\workspace\\pediatria-legacy\\capapresentacion\\stats\\frmdiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\stats\\frmdiagnosticos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C188DE95-3E2C-4DA7-B9BA-80C2AED7DA37}|CapaDato\\CapaDato.csproj|E:\\workspace\\pediatria-legacy\\capadato\\cargarpacientedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C188DE95-3E2C-4DA7-B9BA-80C2AED7DA37}|CapaDato\\CapaDato.csproj|solutionrelative:capadato\\cargarpacientedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFAC7662-EBD3-4F31-9EF7-83F4A66575A6}|CapaNegocio\\CapaNegocio.csproj|E:\\workspace\\pediatria-legacy\\capanegocio\\parentesconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFAC7662-EBD3-4F31-9EF7-83F4A66575A6}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\parentesconegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|E:\\workspace\\pediatria-legacy\\capapresentacion\\presentationlayer\\frmcargarconsultaspaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\presentationlayer\\frmcargarconsultaspaciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|E:\\workspace\\pediatria-legacy\\capapresentacion\\presentationlayer\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{503E8C9B-D532-4926-A6FA-0D149F4CE817}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\presentationlayer\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapaDato.dll.config",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\AmbientePruebas\\bin\\Debug\\CapaDato.dll.config",
+              "RelativeDocumentMoniker": "AmbientePruebas\\bin\\Debug\\CapaDato.dll.config",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\AmbientePruebas\\bin\\Debug\\CapaDato.dll.config",
+              "RelativeToolTip": "AmbientePruebas\\bin\\Debug\\CapaDato.dll.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-09-27T05:00:45.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParentescoNegocio.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaNegocio\\ParentescoNegocio.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\ParentescoNegocio.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaNegocio\\ParentescoNegocio.cs",
+              "RelativeToolTip": "CapaNegocio\\ParentescoNegocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:40:58.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDiagnosticos.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\Stats\\frmDiagnosticos.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Stats\\frmDiagnosticos.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\Stats\\frmDiagnosticos.cs",
+              "RelativeToolTip": "CapaPresentacion\\Stats\\frmDiagnosticos.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:40:29.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmPacienteHome.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmPacienteHome.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\PresentationLayer\\frmPacienteHome.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmPacienteHome.cs",
+              "RelativeToolTip": "CapaPresentacion\\PresentationLayer\\frmPacienteHome.cs",
+              "ViewState": "AgIAAE8CAAAAAAAAAAAYwGICAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:43:25.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CargarPacienteDataAccess.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaDato\\CargarPacienteDataAccess.cs",
+              "RelativeDocumentMoniker": "CapaDato\\CargarPacienteDataAccess.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaDato\\CargarPacienteDataAccess.cs",
+              "RelativeToolTip": "CapaDato\\CargarPacienteDataAccess.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAlwEIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:43:23.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmLogin.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\PresentationLayer\\frmLogin.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmLogin.cs",
+              "RelativeToolTip": "CapaPresentacion\\PresentationLayer\\frmLogin.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:40:04.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmCargarConsultasPaciente.cs",
+              "DocumentMoniker": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmCargarConsultasPaciente.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\PresentationLayer\\frmCargarConsultasPaciente.cs",
+              "ToolTip": "E:\\workspace\\pediatria-legacy\\CapaPresentacion\\PresentationLayer\\frmCargarConsultasPaciente.cs",
+              "RelativeToolTip": "CapaPresentacion\\PresentationLayer\\frmCargarConsultasPaciente.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAIAwwFYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-27T04:39:32.055Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

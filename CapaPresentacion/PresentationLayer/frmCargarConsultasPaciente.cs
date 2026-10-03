@@ -78,13 +78,13 @@ namespace CapaPresentacion.PresentationLayer
 
               
               dpFechaConsulta.Value = Convert.ToDateTime(dgvConsultaPaciente[3, indiceRow].Value);
-              tbxSintomas.Text = consulta.Sintomas;
+         //     tbxSintomas.Text = consulta.Sintomas;
               txtDiagnostico.Text = consulta.Diagnostico;
               
               txtHEA.Text = consulta.HistoriaActual;
               txtObservacionesGenerales.Text = consulta.Observaciones;
               txtTratamiento.Text = consulta.Tratamiento;
-              txtSistemas.Text = consulta.RevisionSistema;
+        //      txtSistemas.Text = consulta.RevisionSistema;
 
 
 
@@ -96,8 +96,8 @@ namespace CapaPresentacion.PresentationLayer
               txtTemperatura.Text = somatometria.Temperatura.ToString();
               txtFC.Text = somatometria.FrecuenciaCardiaca.ToString();
               txtFR.Text = somatometria.FrecuenciaRespiratoria.ToString();
-              txtObservacionesSG.Text = somatometria.ObservacionesSG;
-              txtObservacionesaAntro.Text = somatometria.ObservacionesAntro;
+          //    txtObservacionesSG.Text = somatometria.ObservacionesSG;
+            //  txtObservacionesaAntro.Text = somatometria.ObservacionesAntro;
               txtHallazgo.Text = somatometria.Exploratorio;
 
             var estaturaMetros = Convert.ToDouble(txtEstatura.Text) / 100;
@@ -268,8 +268,8 @@ namespace CapaPresentacion.PresentationLayer
                 somatometria.PresionDiastolica = Convert.ToDouble(txtPresionDiastolica.Text);
             }
 
-            somatometria.ObservacionesAntro = txtObservacionesaAntro.Text;
-            somatometria.ObservacionesSG = txtObservacionesSG.Text;
+        //// /   somatometria.ObservacionesAntro = txtObservacionesaAntro.Text;
+          ///  somatometria.ObservacionesSG = txtObservacionesSG.Text;
             somatometria.Id = idSomatometria;
             somatometria.IDConsulta = idConsulta;
 
@@ -277,12 +277,12 @@ namespace CapaPresentacion.PresentationLayer
             consulta.IDExpediente = DatosComunesConsulta.expediente.Id;
             consulta.Diagnostico = txtDiagnostico.Text;
             consulta.Observaciones = txtObservacionesGenerales.Text;
-            consulta.Sintomas = tbxSintomas.Text;
+       //     consulta.Sintomas = tbxSintomas.Text;
             consulta.HistoriaActual = txtHEA.Text;
             consulta.Fecha = dpFechaConsulta.Value;
             consulta.Activo = true;
             consulta.Tratamiento = txtTratamiento.Text;
-            consulta.RevisionSistema = txtSistemas.Text;
+       //     consulta.RevisionSistema = txtSistemas.Text;
             consulta.IDMedico = 1;
             consulta.Id = idConsulta;
 

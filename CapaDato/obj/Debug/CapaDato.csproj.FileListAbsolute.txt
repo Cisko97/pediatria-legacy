@@ -120,3 +120,19 @@ C:\Users\Sandav\Desktop\CD\Código Fuente\CapaDato\obj\Debug\CapaDato.csproj.Cor
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaDato\obj\Debug\CapaDato.csproj.CopyComplete
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaDato\obj\Debug\CapaDato.dll
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaDato\obj\Debug\CapaDato.pdb
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaDato.dll.config
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaDato.dll
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaDato.pdb
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaEntidad.dll
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\EntityFramework.dll
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaEntidad.pdb
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\CapaEntidad.dll.config
+E:\workspace\pediatria-legacy\CapaDato\bin\Debug\EntityFramework.xml
+E:\workspace\pediatria-legacy\CapaDato\obj\Debug\CapaDato.csproj.AssemblyReference.cache
+E:\workspace\pediatria-legacy\CapaDato\obj\Debug\CapaDato.csproj.CoreCompileInputs.cache
+E:\workspace\pediatria-legacy\CapaDato\obj\Debug\CapaDato.csproj.Up2Date
+E:\workspace\pediatria-legacy\CapaDato\obj\Debug\CapaDato.dll
+E:\workspace\pediatria-legacy\CapaDato\obj\Debug\CapaDato.pdb
