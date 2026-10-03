@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using CapaDato;
-using CapaEntidad;
+// using CapaEntidad;
 
 namespace AmbientePruebas
 {

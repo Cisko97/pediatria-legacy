@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 using CapaNegocio;
-using CapaEntidad;
+// using CapaEntidad;
 using CapaDato;
 
 namespace CapaPresentacion.PresentationLayer
