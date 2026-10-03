@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ConsultorioPediatrico.exe.manifest" size="24938">
+    <dependentAssembly dependencyType="install" codebase="ConsultorioPediatrico.exe.manifest" size="14669">
       <assemblyIdentity name="ConsultorioPediatrico.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1zGHCEi7dOo+lBNpjVABbkWte8ulRBy5f7NaAVuMobg=</dsig:DigestValue>
+        <dsig:DigestValue>yEAIDqkedriMAIu1nrKNBvtSluHT9MnRX8cfHA5p9Vw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Transactions;
 using CapaDato;
-using CapaEntidad;
+// using CapaEntidad;
 using System.Windows.Forms;
 
 namespace CapaNegocio

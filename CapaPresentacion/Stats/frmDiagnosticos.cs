@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaNegocio;
-using CapaEntidad;
+// using CapaEntidad;
 using CapaDato;
 
 namespace CapaPresentacion.Stats
