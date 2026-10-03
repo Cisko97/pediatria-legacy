@@ -76,3 +76,14 @@ C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.cspr
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.csproj.CopyComplete
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.dll
 C:\Users\Sandav\Desktop\CD\Código Fuente\CapaEntidad\obj\Debug\CapaEntidad.pdb
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\CapaEntidad.dll.config
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\CapaEntidad.dll
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\CapaEntidad.pdb
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\workspace\pediatria-legacy\CapaEntidad\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\workspace\pediatria-legacy\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+E:\workspace\pediatria-legacy\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+E:\workspace\pediatria-legacy\CapaEntidad\obj\Debug\CapaEnti.526B9C87.Up2Date
+E:\workspace\pediatria-legacy\CapaEntidad\obj\Debug\CapaEntidad.dll
+E:\workspace\pediatria-legacy\CapaEntidad\obj\Debug\CapaEntidad.pdb

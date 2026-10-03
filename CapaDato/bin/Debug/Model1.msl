@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ConsultorioPediatricoBDModelStoreContainer" CdmEntityContainer="ConsultorioPediatricoBDEntities11">
+    <EntitySetMapping Name="AntecedentePersonal">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.AntecedentePersonal">
+        <MappingFragment StoreEntitySet="AntecedentePersonal">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Padecimiento" ColumnName="Padecimiento" />
+          <ScalarProperty Name="EnfermedadCronica" ColumnName="EnfermedadCronica" />
+          <ScalarProperty Name="Alergias" ColumnName="Alergias" />
+          <ScalarProperty Name="Cirugias" ColumnName="Cirugias" />
+          <ScalarProperty Name="Transfusion" ColumnName="Transfusion" />
+          <ScalarProperty Name="Hospitalizacion" ColumnName="Hospitalizacion" />
+          <ScalarProperty Name="TipoVivienda" ColumnName="TipoVivienda" />
+          <ScalarProperty Name="HabitoHigiene" ColumnName="HabitoHigiene" />
+          <ScalarProperty Name="HabitoAlimentacion" ColumnName="HabitoAlimentacion" />
+          <ScalarProperty Name="DesarrolloSocial" ColumnName="DesarrolloSocial" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cita">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Cita">
+        <MappingFragment StoreEntitySet="Cita">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="MotivoConsulta" ColumnName="MotivoConsulta" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Consulta">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Consulta">
+        <MappingFragment StoreEntitySet="Consulta">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="HistoriaActual" ColumnName="HistoriaActual" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DosisVacuna">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.DosisVacuna">
+        <MappingFragment StoreEntitySet="DosisVacuna">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="IDVacuna" ColumnName="IDVacuna" />
+          <ScalarProperty Name="FechaAplicacion" ColumnName="FechaAplicacion" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="enConsultorio" ColumnName="enConsultorio" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Examen">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Examen">
+        <MappingFragment StoreEntitySet="Examen">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="NombreImagen" ColumnName="NombreImagen" />
+          <ScalarProperty Name="FechaQueSeRealizo" ColumnName="FechaQueSeRealizo" />
+          <ScalarProperty Name="FechaIngresoBD" ColumnName="FechaIngresoBD" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Expediente">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Expediente">
+        <MappingFragment StoreEntitySet="Expediente">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrupoSanguineo">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.GrupoSanguineo">
+        <MappingFragment StoreEntitySet="GrupoSanguineo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoriaClinicaFamiliar">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliar">
+        <MappingFragment StoreEntitySet="HistoriaClinicaFamiliar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDInformacionFamiliar" ColumnName="IDInformacionFamiliar" />
+          <ScalarProperty Name="ObservacionesMedicas" ColumnName="ObservacionesMedicas" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionFamiliar">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionFamiliar">
+        <MappingFragment StoreEntitySet="InformacionFamiliar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="IDParentesco" ColumnName="IDParentesco" />
+          <ScalarProperty Name="TelContacto" ColumnName="TelContacto" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionNacimiento">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionNacimiento">
+        <MappingFragment StoreEntitySet="InformacionNacimiento">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Altura" ColumnName="Altura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="FueCesarea" ColumnName="FueCesarea" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="CircularCordon" ColumnName="CircularCordon" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="MotivoCesarea" ColumnName="MotivoCesarea" />
+          <ScalarProperty Name="ComplicacionEmbarazo" ColumnName="ComplicacionEmbarazo" />
+          <ScalarProperty Name="EnfermedadEmbarazo" ColumnName="EnfermedadEmbarazo" />
+          <ScalarProperty Name="MedicacionEmbarazo" ColumnName="MedicacionEmbarazo" />
+          <ScalarProperty Name="EdadGestacional" ColumnName="EdadGestacional" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Medico">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Medico">
+        <MappingFragment StoreEntitySet="Medico">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Especialidad" ColumnName="Especialidad" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Paciente">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Paciente">
+        <MappingFragment StoreEntitySet="Paciente">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Nombre2" ColumnName="Nombre2" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+          <ScalarProperty Name="Apellido2" ColumnName="Apellido2" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="NacimientoHospital" ColumnName="NacimientoHospital" />
+          <ScalarProperty Name="CiudadNacimiento" ColumnName="CiudadNacimiento" />
+          <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="EsNino" ColumnName="EsNino" />
+          <ScalarProperty Name="NombrePadre" ColumnName="NombrePadre" />
+          <ScalarProperty Name="CedulaPadre" ColumnName="CedulaPadre" />
+          <ScalarProperty Name="NombreMadre" ColumnName="NombreMadre" />
+          <ScalarProperty Name="CedulaMadre" ColumnName="CedulaMadre" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Parentesco">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Parentesco">
+        <MappingFragment StoreEntitySet="Parentesco">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Permiso">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Permiso">
+        <MappingFragment StoreEntitySet="Permiso">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Rol">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Rol">
+        <MappingFragment StoreEntitySet="Rol">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolPermiso">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.RolPermiso">
+        <MappingFragment StoreEntitySet="RolPermiso">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPermiso" ColumnName="IDPermiso" />
+          <ScalarProperty Name="IDRol" ColumnName="IDRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RolUsuario">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.RolUsuario">
+        <MappingFragment StoreEntitySet="RolUsuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDRol" ColumnName="IDRol" />
+          <ScalarProperty Name="IDUsuario" ColumnName="IDUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Somatometria">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Somatometria">
+        <MappingFragment StoreEntitySet="Somatometria">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDConsulta" ColumnName="IDConsulta" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="PerimetroAbdominal" ColumnName="PerimetroAbdominal" />
+          <ScalarProperty Name="PerimetroToracico" ColumnName="PerimetroToracico" />
+          <ScalarProperty Name="FrecuenciaCardiaca" ColumnName="FrecuenciaCardiaca" />
+          <ScalarProperty Name="FrecuenciaRespiratoria" ColumnName="FrecuenciaRespiratoria" />
+          <ScalarProperty Name="PresionSistolica" ColumnName="PresionSistolica" />
+          <ScalarProperty Name="PresionDiastolica" ColumnName="PresionDiastolica" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="Exploratorio" ColumnName="Exploratorio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vacuna">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Vacuna">
+        <MappingFragment StoreEntitySet="Vacuna">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Receta">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.Receta">
+        <MappingFragment StoreEntitySet="Receta">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Medicamento" ColumnName="Medicamento" />
+          <ScalarProperty Name="Indicacion" ColumnName="Indicacion" />
+          <ScalarProperty Name="FechaPrescripcion" ColumnName="FechaPrescripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AntecedentePersonalV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.AntecedentePersonalV">
+        <MappingFragment StoreEntitySet="AntecedentePersonalV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Padecimiento" ColumnName="Padecimiento" />
+          <ScalarProperty Name="EnfermedadCronica" ColumnName="EnfermedadCronica" />
+          <ScalarProperty Name="Alergias" ColumnName="Alergias" />
+          <ScalarProperty Name="Transfusion" ColumnName="Transfusion" />
+          <ScalarProperty Name="Hospitalizacion" ColumnName="Hospitalizacion" />
+          <ScalarProperty Name="TipoVivienda" ColumnName="TipoVivienda" />
+          <ScalarProperty Name="HabitoHigiene" ColumnName="HabitoHigiene" />
+          <ScalarProperty Name="HabitoAlimentacion" ColumnName="HabitoAlimentacion" />
+          <ScalarProperty Name="DesarrolloSocial" ColumnName="DesarrolloSocial" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Cirugias" ColumnName="Cirugias" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarConsultaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarConsultaV">
+        <MappingFragment StoreEntitySet="CargarConsultaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="HistoriaActual" ColumnName="HistoriaActual" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IdSomatometria" ColumnName="IdSomatometria" />
+          <ScalarProperty Name="IDConsulta" ColumnName="IDConsulta" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="PerimetroAbdominal" ColumnName="PerimetroAbdominal" />
+          <ScalarProperty Name="PerimetroToracico" ColumnName="PerimetroToracico" />
+          <ScalarProperty Name="FrecuenciaCardiaca" ColumnName="FrecuenciaCardiaca" />
+          <ScalarProperty Name="FrecuenciaRespiratoria" ColumnName="FrecuenciaRespiratoria" />
+          <ScalarProperty Name="PresionSistolica" ColumnName="PresionSistolica" />
+          <ScalarProperty Name="PresionDiastolica" ColumnName="PresionDiastolica" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="Exploratorio" ColumnName="Exploratorio" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarDosisVacunaPersonalizadaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarDosisVacunaPersonalizadaV">
+        <MappingFragment StoreEntitySet="CargarDosisVacunaPersonalizadaV">
+          <ScalarProperty Name="IdDosis" ColumnName="IdDosis" />
+          <ScalarProperty Name="IdVacuna" ColumnName="IdVacuna" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="FechaAplicacion" ColumnName="FechaAplicacion" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="enConsultorio" ColumnName="enConsultorio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarExamenPersonalizadoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarExamenPersonalizadoV">
+        <MappingFragment StoreEntitySet="CargarExamenPersonalizadoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Nombre_Examen" ColumnName="Nombre Examen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="FechaQueSeRealizo" ColumnName="FechaQueSeRealizo" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarInformacionFamiliarPersonalizadaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarInformacionFamiliarPersonalizadaV">
+        <MappingFragment StoreEntitySet="CargarInformacionFamiliarPersonalizadaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="Parentesco" ColumnName="Parentesco" />
+          <ScalarProperty Name="Paciente" ColumnName="Paciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarInformacionFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarInformacionFamiliarV">
+        <MappingFragment StoreEntitySet="CargarInformacionFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IdHistoria" ColumnName="IdHistoria" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IDParentesco" ColumnName="IDParentesco" />
+          <ScalarProperty Name="Parentesco" ColumnName="Parentesco" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+          <ScalarProperty Name="TelContacto" ColumnName="TelContacto" />
+          <ScalarProperty Name="Anotaciones" ColumnName="Anotaciones" />
+          <ScalarProperty Name="CondicionMedica" ColumnName="CondicionMedica" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="IdPaciente" ColumnName="IdPaciente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CargarPacientesV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.CargarPacientesV">
+        <MappingFragment StoreEntitySet="CargarPacientesV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Segundo_Nombre" ColumnName="Segundo Nombre" />
+          <ScalarProperty Name="Apellido" ColumnName="Apellido" />
+          <ScalarProperty Name="Segundo_Apellido" ColumnName="Segundo Apellido" />
+          <ScalarProperty Name="Tipo_de_Sangre" ColumnName="Tipo de Sangre" />
+          <ScalarProperty Name="F__Nacimiento" ColumnName="F. Nacimiento" />
+          <ScalarProperty Name="Ultima_Consulta" ColumnName="Ultima Consulta" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ConsultaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ConsultaV">
+        <MappingFragment StoreEntitySet="ConsultaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="HistoriaActual" ColumnName="HistoriaActual" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DosisVacunaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.DosisVacunaV">
+        <MappingFragment StoreEntitySet="DosisVacunaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="IDVacuna" ColumnName="IDVacuna" />
+          <ScalarProperty Name="FechaAplicacion" ColumnName="FechaAplicacion" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="enConsultorio" ColumnName="enConsultorio" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExamenV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExamenV">
+        <MappingFragment StoreEntitySet="ExamenV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="NombreImagen" ColumnName="NombreImagen" />
+          <ScalarProperty Name="FechaQueSeRealizo" ColumnName="FechaQueSeRealizo" />
+          <ScalarProperty Name="FechaIngresoBD" ColumnName="FechaIngresoBD" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExpedienteV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ExpedienteV">
+        <MappingFragment StoreEntitySet="ExpedienteV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="FechaCreacion" ColumnName="FechaCreacion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GrupoSanguineoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.GrupoSanguineoV">
+        <MappingFragment StoreEntitySet="GrupoSanguineoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HistoriaClinicaFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.HistoriaClinicaFamiliarV">
+        <MappingFragment StoreEntitySet="HistoriaClinicaFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDInformacionFamiliar" ColumnName="IDInformacionFamiliar" />
+          <ScalarProperty Name="ObservacionesMedicas" ColumnName="ObservacionesMedicas" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionFamiliarV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionFamiliarV">
+        <MappingFragment StoreEntitySet="InformacionFamiliarV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="IDParentesco" ColumnName="IDParentesco" />
+          <ScalarProperty Name="TelContacto" ColumnName="TelContacto" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="InformacionNacimientoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.InformacionNacimientoV">
+        <MappingFragment StoreEntitySet="InformacionNacimientoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Altura" ColumnName="Altura" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="FueCesarea" ColumnName="FueCesarea" />
+          <ScalarProperty Name="Posicion" ColumnName="Posicion" />
+          <ScalarProperty Name="Observaciones" ColumnName="Observaciones" />
+          <ScalarProperty Name="CircularCordon" ColumnName="CircularCordon" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="MotivoCesarea" ColumnName="MotivoCesarea" />
+          <ScalarProperty Name="ComplicacionEmbarazo" ColumnName="ComplicacionEmbarazo" />
+          <ScalarProperty Name="EnfermedadEmbarazo" ColumnName="EnfermedadEmbarazo" />
+          <ScalarProperty Name="MedicacionEmbarazo" ColumnName="MedicacionEmbarazo" />
+          <ScalarProperty Name="EdadGestacional" ColumnName="EdadGestacional" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ListaPacientesV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ListaPacientesV">
+        <MappingFragment StoreEntitySet="ListaPacientesV">
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="CiudadNacimiento" ColumnName="CiudadNacimiento" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDPaciente" ColumnName="IDPaciente" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="NombreGrupo" ColumnName="NombreGrupo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PacienteV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.PacienteV">
+        <MappingFragment StoreEntitySet="PacienteV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Nombre2" ColumnName="Nombre2" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+          <ScalarProperty Name="Apellido2" ColumnName="Apellido2" />
+          <ScalarProperty Name="FechaNacimiento" ColumnName="FechaNacimiento" />
+          <ScalarProperty Name="NacimientoHospital" ColumnName="NacimientoHospital" />
+          <ScalarProperty Name="CiudadNacimiento" ColumnName="CiudadNacimiento" />
+          <ScalarProperty Name="LugarNacimiento" ColumnName="LugarNacimiento" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="IDGrupoSanguineo" ColumnName="IDGrupoSanguineo" />
+          <ScalarProperty Name="EsNino" ColumnName="EsNino" />
+          <ScalarProperty Name="NombrePadre" ColumnName="NombrePadre" />
+          <ScalarProperty Name="CedulaPadre" ColumnName="CedulaPadre" />
+          <ScalarProperty Name="NombreMadre" ColumnName="NombreMadre" />
+          <ScalarProperty Name="CedulaMadre" ColumnName="CedulaMadre" />
+          <ScalarProperty Name="Religion" ColumnName="Religion" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+          <ScalarProperty Name="Origen" ColumnName="Origen" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParentescoV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.ParentescoV">
+        <MappingFragment StoreEntitySet="ParentescoV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Notas" ColumnName="Notas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecetaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.RecetaV">
+        <MappingFragment StoreEntitySet="RecetaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Medicamento" ColumnName="Medicamento" />
+          <ScalarProperty Name="Indicacion" ColumnName="Indicacion" />
+          <ScalarProperty Name="FechaPrescripcion" ColumnName="FechaPrescripcion" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SomatometriaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.SomatometriaV">
+        <MappingFragment StoreEntitySet="SomatometriaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IDConsulta" ColumnName="IDConsulta" />
+          <ScalarProperty Name="Exploratorio" ColumnName="Exploratorio" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="PresionDiastolica" ColumnName="PresionDiastolica" />
+          <ScalarProperty Name="PresionSistolica" ColumnName="PresionSistolica" />
+          <ScalarProperty Name="FrecuenciaRespiratoria" ColumnName="FrecuenciaRespiratoria" />
+          <ScalarProperty Name="FrecuenciaCardiaca" ColumnName="FrecuenciaCardiaca" />
+          <ScalarProperty Name="PerimetroAbdominal" ColumnName="PerimetroAbdominal" />
+          <ScalarProperty Name="PerimetroToracico" ColumnName="PerimetroToracico" />
+          <ScalarProperty Name="PerimetroCefalico" ColumnName="PerimetroCefalico" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UsuarioV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.UsuarioV">
+        <MappingFragment StoreEntitySet="UsuarioV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IDMedico" ColumnName="IDMedico" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VacunaV">
+      <EntityTypeMapping TypeName="ConsultorioPediatricoBDModel.VacunaV">
+        <MappingFragment StoreEntitySet="VacunaV">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Observacion" ColumnName="Observacion" />
+          <ScalarProperty Name="NumeroDosis" ColumnName="NumeroDosis" />
+          <ScalarProperty Name="Activo" ColumnName="Activo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="AntecedentePersonal_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Actualizar" />
+    <FunctionImportMapping FunctionImportName="AntecedentePersonal_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.AntecedentePersonal_Insertar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Consulta_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Consulta_Insertar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Actualizar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Eliminar" />
+    <FunctionImportMapping FunctionImportName="DosisVacuna_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.DosisVacuna_Insertar" />
+    <FunctionImportMapping FunctionImportName="Examen_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Examen_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Examen_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Examen_Insertar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Expediente_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Expediente_Insertar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Actualizar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Eliminar" />
+    <FunctionImportMapping FunctionImportName="GrupoSanguineo_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.GrupoSanguineo_Insertar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Actualizar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Eliminar" />
+    <FunctionImportMapping FunctionImportName="HistoriaClinicaFamiliar_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.HistoriaClinicaFamiliar_Insertar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Actualizar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Eliminar" />
+    <FunctionImportMapping FunctionImportName="InformacionFamiliar_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionFamiliar_Insertar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Actualizar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Eliminar" />
+    <FunctionImportMapping FunctionImportName="InformacionNacimiento_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.InformacionNacimiento_Insertar" />
+    <FunctionImportMapping FunctionImportName="ObtenerEdad" FunctionName="ConsultorioPediatricoBDModel.Store.ObtenerEdad" />
+    <FunctionImportMapping FunctionImportName="ObtenerEdadConsulta" FunctionName="ConsultorioPediatricoBDModel.Store.ObtenerEdadConsulta" />
+    <FunctionImportMapping FunctionImportName="Paciente_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Paciente_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Paciente_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Paciente_Insertar" />
+    <FunctionImportMapping FunctionImportName="PacienteEliminarCascada" FunctionName="ConsultorioPediatricoBDModel.Store.PacienteEliminarCascada" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Parentesco_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Parentesco_Insertar" />
+    <FunctionImportMapping FunctionImportName="Reporte_ConsultaXPaciente" FunctionName="ConsultorioPediatricoBDModel.Store.Reporte_ConsultaXPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.Reporte_ConsultaXPaciente_Result">
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Diagnostico" ColumnName="Diagnostico" />
+          <ScalarProperty Name="FechaConsulta" ColumnName="FechaConsulta" />
+          <ScalarProperty Name="Tratamiento" ColumnName="Tratamiento" />
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Reporte_SomatometriaXPaciente" FunctionName="ConsultorioPediatricoBDModel.Store.Reporte_SomatometriaXPaciente">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.Reporte_SomatometriaXPaciente_Result">
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="Estatura" ColumnName="Estatura" />
+          <ScalarProperty Name="Temperatura" ColumnName="Temperatura" />
+          <ScalarProperty Name="FechaConsulta" ColumnName="FechaConsulta" />
+          <ScalarProperty Name="Nombre1" ColumnName="Nombre1" />
+          <ScalarProperty Name="Apellido1" ColumnName="Apellido1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="Somatometria_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Somatometria_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Somatometria_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Somatometria_Insertar" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="ConsultorioPediatricoBDModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="ConsultorioPediatricoBDModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ConsultorioPediatricoBDModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="ConsultorioPediatricoBDModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="ConsultorioPediatricoBDModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Actualizar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Actualizar" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Eliminar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Eliminar" />
+    <FunctionImportMapping FunctionImportName="Vacuna_Insertar" FunctionName="ConsultorioPediatricoBDModel.Store.Vacuna_Insertar" />
+  </EntityContainerMapping>
+</Mapping>

@@ -1,10 +1,284 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="ConsultorioPediatricoBDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AntecedentePersonal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="Padecimiento" Type="nvarchar(max)" />
+    <Property Name="EnfermedadCronica" Type="nvarchar(max)" />
+    <Property Name="Alergias" Type="nvarchar(max)" />
+    <Property Name="Cirugias" Type="nvarchar(max)" />
+    <Property Name="Transfusion" Type="nvarchar(max)" />
+    <Property Name="Hospitalizacion" Type="nvarchar(max)" />
+    <Property Name="TipoVivienda" Type="nvarchar" MaxLength="100" />
+    <Property Name="HabitoHigiene" Type="nvarchar(max)" />
+    <Property Name="HabitoAlimentacion" Type="nvarchar(max)" />
+    <Property Name="DesarrolloSocial" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Cita">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" />
+    <Property Name="Fecha" Type="datetime" />
+    <Property Name="MotivoConsulta" Type="nvarchar" MaxLength="100" />
+    <Property Name="Estado" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Consulta">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="HistoriaActual" Type="nvarchar(max)" />
+    <Property Name="Diagnostico" Type="nvarchar(max)" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="Tratamiento" Type="nvarchar(max)" />
+    <Property Name="IDMedico" Type="int" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DosisVacuna">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NumeroDosis" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDVacuna" Type="int" Nullable="false" />
+    <Property Name="FechaAplicacion" Type="date" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="enConsultorio" Type="bit" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Examen">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="NombreImagen" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaQueSeRealizo" Type="date" />
+    <Property Name="FechaIngresoBD" Type="date" Nullable="false" />
+    <Property Name="Imagen" Type="image" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Tipo" Type="nvarchar" MaxLength="50" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Expediente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar" MaxLength="200" />
+    <Property Name="FechaCreacion" Type="datetime" Nullable="false" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="GrupoSanguineo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreGrupo" Type="nvarchar" MaxLength="5" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="HistoriaClinicaFamiliar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDInformacionFamiliar" Type="int" Nullable="false" />
+    <Property Name="ObservacionesMedicas" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IDGrupoSanguineo" Type="int" />
+  </EntityType>
+  <EntityType Name="InformacionFamiliar">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="IDParentesco" Type="int" Nullable="false" />
+    <Property Name="TelContacto" Type="int" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="InformacionNacimiento">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Peso" Type="float" />
+    <Property Name="Altura" Type="float" />
+    <Property Name="PerimetroCefalico" Type="float" />
+    <Property Name="FueCesarea" Type="bit" />
+    <Property Name="Posicion" Type="bit" />
+    <Property Name="Observaciones" Type="nvarchar(max)" />
+    <Property Name="CircularCordon" Type="bit" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="MotivoCesarea" Type="nvarchar(max)" />
+    <Property Name="ComplicacionEmbarazo" Type="nvarchar(max)" />
+    <Property Name="EnfermedadEmbarazo" Type="nvarchar(max)" />
+    <Property Name="MedicacionEmbarazo" Type="nvarchar(max)" />
+    <Property Name="EdadGestacional" Type="int" />
+  </EntityType>
+  <EntityType Name="Medico">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Cedula" Type="nvarchar" MaxLength="50" />
+    <Property Name="Especialidad" Type="nvarchar" MaxLength="200" />
+    <Property Name="Telefono" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Paciente">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Nombre2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Apellido1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido2" Type="nvarchar" MaxLength="50" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="NacimientoHospital" Type="bit" />
+    <Property Name="CiudadNacimiento" Type="nvarchar" MaxLength="50" />
+    <Property Name="LugarNacimiento" Type="nvarchar" MaxLength="50" />
+    <Property Name="Direccion" Type="nvarchar" MaxLength="200" />
+    <Property Name="IDGrupoSanguineo" Type="int" Nullable="false" />
+    <Property Name="EsNino" Type="bit" Nullable="false" />
+    <Property Name="NombrePadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="CedulaPadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="NombreMadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="CedulaMadre" Type="nvarchar" MaxLength="50" />
+    <Property Name="Religion" Type="nvarchar" MaxLength="50" />
+    <Property Name="Notas" Type="nvarchar(max)" />
+    <Property Name="Origen" Type="nvarchar" MaxLength="15" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Parentesco">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Notas" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Permiso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Estado" Type="bit" />
+  </EntityType>
+  <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'ConsultorioPediatricoBD.dbo.pruebaconexion' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="pruebaconexion">
+          <Property Name="id" Type="int" />
+        </EntityType>-->
+  <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.Receta' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="Receta">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IDExpediente" Type="int" Nullable="false" />
+    <Property Name="Medicamento" Type="nvarchar(max)" />
+    <Property Name="Indicacion" Type="nvarchar(max)" />
+    <Property Name="FechaPrescripcion" Type="datetime" />
+    <Property Name="Activo" Type="bit" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Descripcion" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="RolPermiso">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDPermiso" Type="int" Nullable="false" />
+    <Property Name="IDRol" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RolUsuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDRol" Type="int" Nullable="false" />
+    <Property Name="IDUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Somatometria">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDConsulta" Type="int" Nullable="false" />
+    <Property Name="Peso" Type="float" />
+    <Property Name="Estatura" Type="float" />
+    <Property Name="PerimetroCefalico" Type="float" />
+    <Property Name="PerimetroAbdominal" Type="float" />
+    <Property Name="PerimetroToracico" Type="float" />
+    <Property Name="FrecuenciaCardiaca" Type="int" />
+    <Property Name="FrecuenciaRespiratoria" Type="int" />
+    <Property Name="PresionSistolica" Type="float" />
+    <Property Name="PresionDiastolica" Type="float" />
+    <Property Name="Temperatura" Type="float" />
+    <Property Name="Exploratorio" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="IDMedico" Type="int" />
+    <Property Name="Activo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vacuna">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Observacion" Type="nvarchar(max)" />
+    <Property Name="NumeroDosis" Type="int" />
+    <Property Name="Activo" Type="bit" />
+  </EntityType>
   <!--Errores durante la generación:
 advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.AntecedentePersonalV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
   <EntityType Name="AntecedentePersonalV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="TipoVivienda" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPaciente" Type="int" Nullable="false" />
@@ -25,6 +299,10 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarConsultaV'
   <EntityType Name="CargarConsultaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Activo" />
+      <PropertyRef Name="IdSomatometria" />
+      <PropertyRef Name="IDConsulta" />
     </Key>
     <Property Name="Id" Type="int" Nullable="false" />
     <Property Name="HistoriaActual" Type="nvarchar(max)" />
@@ -95,6 +373,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.CargarInformacio
       <PropertyRef Name="Id" />
       <PropertyRef Name="IDPaciente" />
       <PropertyRef Name="IdHistoria" />
+      <PropertyRef Name="Nombre" />
       <PropertyRef Name="Observacion" />
       <PropertyRef Name="Paciente" />
     </Key>
@@ -159,6 +438,8 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ConsultaV' no ti
   <EntityType Name="ConsultaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDExpediente" Type="int" Nullable="false" />
@@ -171,10 +452,19 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ConsultaV' no ti
     <Property Name="Fecha" Type="date" />
   </EntityType>
   <!--Errores durante la generación:
+advertencia 6013: La tabla o vista 'ConsultorioPediatricoBD.dbo.DiagnosticoV' no tiene definida una clave principal y no es posible inferir ninguna clave principal válida. Esta tabla o vista se ha excluido. Para usar la entidad, necesitará revisar el esquema, agregar las claves correctas y quitar sus comentarios.
+        <EntityType Name="DiagnosticoV">
+          <Property Name="Diagnostico" Type="nvarchar(max)" />
+        </EntityType>-->
+  <!--Errores durante la generación:
 advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.DosisVacunaV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
   <EntityType Name="DosisVacunaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="NumeroDosis" />
+      <PropertyRef Name="IDVacuna" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NumeroDosis" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -190,6 +480,11 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ExamenV' no tien
   <EntityType Name="ExamenV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
+      <PropertyRef Name="NombreImagen" />
+      <PropertyRef Name="FechaIngresoBD" />
+      <PropertyRef Name="Imagen" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDExpediente" Type="int" Nullable="false" />
@@ -206,6 +501,8 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ExpedienteV' no 
     <Key>
       <PropertyRef Name="Id" />
       <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="Activo" />
+      <PropertyRef Name="FechaCreacion" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDPaciente" Type="int" Nullable="false" />
@@ -218,6 +515,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.GrupoSanguineoV'
   <EntityType Name="GrupoSanguineoV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="NombreGrupo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="NombreGrupo" Type="nvarchar" MaxLength="5" Nullable="false" />
@@ -228,6 +526,8 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.HistoriaClinicaF
   <EntityType Name="HistoriaClinicaFamiliarV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDInformacionFamiliar" />
+      <PropertyRef Name="ObservacionesMedicas" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDInformacionFamiliar" Type="int" Nullable="false" />
@@ -239,6 +539,10 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.InformacionFamil
   <EntityType Name="InformacionFamiliarV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="IDParentesco" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar" MaxLength="100" Nullable="false" />
@@ -253,6 +557,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.InformacionNacim
   <EntityType Name="InformacionNacimientoV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Peso" Type="float" />
@@ -270,10 +575,39 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.InformacionNacim
     <Property Name="EdadGestacional" Type="int" />
   </EntityType>
   <!--Errores durante la generación:
+advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ListaPacientesV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
+  <EntityType Name="ListaPacientesV">
+    <Key>
+      <PropertyRef Name="Nombre1" />
+      <PropertyRef Name="Apellido1" />
+      <PropertyRef Name="FechaNacimiento" />
+      <PropertyRef Name="IDGrupoSanguineo" />
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="IDPaciente" />
+      <PropertyRef Name="Expr1" />
+      <PropertyRef Name="NombreGrupo" />
+    </Key>
+    <Property Name="Nombre1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Apellido1" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FechaNacimiento" Type="date" Nullable="false" />
+    <Property Name="CiudadNacimiento" Type="nvarchar" MaxLength="50" />
+    <Property Name="IDGrupoSanguineo" Type="int" Nullable="false" />
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="IDPaciente" Type="int" Nullable="false" />
+    <Property Name="Expr1" Type="int" Nullable="false" />
+    <Property Name="NombreGrupo" Type="nvarchar" MaxLength="5" Nullable="false" />
+  </EntityType>
+  <!--Errores durante la generación:
 advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.PacienteV' no tiene definida ninguna clave principal. Se ha inferido la clave y la definición se creado como una vista o tabla de solo lectura.-->
   <EntityType Name="PacienteV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre1" />
+      <PropertyRef Name="Apellido1" />
+      <PropertyRef Name="FechaNacimiento" />
+      <PropertyRef Name="IDGrupoSanguineo" />
+      <PropertyRef Name="EsNino" />
+      <PropertyRef Name="Activo" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre1" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -301,6 +635,8 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.ParentescoV' no 
   <EntityType Name="ParentescoV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
+      <PropertyRef Name="Notas" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -311,6 +647,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.RecetaV' no tien
   <EntityType Name="RecetaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDExpediente" />
     </Key>
     <Property Name="Id" Type="int" Nullable="false" />
     <Property Name="IDExpediente" Type="int" Nullable="false" />
@@ -324,6 +661,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.SomatometriaV' n
   <EntityType Name="SomatometriaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="IDConsulta" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="IDConsulta" Type="int" Nullable="false" />
@@ -357,6 +695,7 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.VacunaV' no tien
   <EntityType Name="VacunaV">
     <Key>
       <PropertyRef Name="Id" />
+      <PropertyRef Name="Nombre" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
@@ -364,6 +703,246 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.VacunaV' no tien
     <Property Name="NumeroDosis" Type="int" />
     <Property Name="Activo" Type="bit" />
   </EntityType>
+  <Association Name="FK_AntecedentePersonal_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="AntecedentePersonal" Type="Self.AntecedentePersonal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AntecedentePersonal">
+        <PropertyRef Name="IDPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cita_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="0..1" />
+    <End Role="Cita" Type="Self.Cita" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Cita">
+        <PropertyRef Name="IDPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Consulta_Expediente1">
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="1" />
+    <End Role="Consulta" Type="Self.Consulta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Consulta">
+        <PropertyRef Name="IDExpediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DosisVacuna_Expediente">
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="1" />
+    <End Role="DosisVacuna" Type="Self.DosisVacuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DosisVacuna">
+        <PropertyRef Name="IDExpediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DosisVacuna_Vacuna1">
+    <End Role="Vacuna" Type="Self.Vacuna" Multiplicity="1" />
+    <End Role="DosisVacuna" Type="Self.DosisVacuna" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vacuna">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DosisVacuna">
+        <PropertyRef Name="IDVacuna" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Examen_Expediente">
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="1" />
+    <End Role="Examen" Type="Self.Examen" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Examen">
+        <PropertyRef Name="IDExpediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Expediente_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Expediente">
+        <PropertyRef Name="IDPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoriaClinicaFamiliar_GrupoSanguineo">
+    <End Role="GrupoSanguineo" Type="Self.GrupoSanguineo" Multiplicity="0..1" />
+    <End Role="HistoriaClinicaFamiliar" Type="Self.HistoriaClinicaFamiliar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GrupoSanguineo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoriaClinicaFamiliar">
+        <PropertyRef Name="IDGrupoSanguineo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoriaClinicaFamiliar_InformacionFamiliar">
+    <End Role="InformacionFamiliar" Type="Self.InformacionFamiliar" Multiplicity="1" />
+    <End Role="HistoriaClinicaFamiliar" Type="Self.HistoriaClinicaFamiliar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="InformacionFamiliar">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoriaClinicaFamiliar">
+        <PropertyRef Name="IDInformacionFamiliar" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InformacionFamiliar_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="InformacionFamiliar" Type="Self.InformacionFamiliar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="InformacionFamiliar">
+        <PropertyRef Name="IDPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InformacionFamiliar_Parentesco">
+    <End Role="Parentesco" Type="Self.Parentesco" Multiplicity="1" />
+    <End Role="InformacionFamiliar" Type="Self.InformacionFamiliar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parentesco">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="InformacionFamiliar">
+        <PropertyRef Name="IDParentesco" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_InformacionNacimiento_Paciente">
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="1" />
+    <End Role="InformacionNacimiento" Type="Self.InformacionNacimiento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Paciente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="InformacionNacimiento">
+        <PropertyRef Name="IDPaciente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Paciente_GrupoSanguineo">
+    <End Role="GrupoSanguineo" Type="Self.GrupoSanguineo" Multiplicity="1" />
+    <End Role="Paciente" Type="Self.Paciente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GrupoSanguineo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Paciente">
+        <PropertyRef Name="IDGrupoSanguineo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Receta_Expediente">
+    <End Role="Expediente" Type="Self.Expediente" Multiplicity="1" />
+    <End Role="Receta" Type="Self.Receta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expediente">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Receta">
+        <PropertyRef Name="IDExpediente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolPermiso_Permiso">
+    <End Role="Permiso" Type="Self.Permiso" Multiplicity="1" />
+    <End Role="RolPermiso" Type="Self.RolPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Permiso">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolPermiso">
+        <PropertyRef Name="IDPermiso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolPermiso_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="RolPermiso" Type="Self.RolPermiso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolPermiso">
+        <PropertyRef Name="IDRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolUsuario_Rol">
+    <End Role="Rol" Type="Self.Rol" Multiplicity="1" />
+    <End Role="RolUsuario" Type="Self.RolUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolUsuario">
+        <PropertyRef Name="IDRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RolUsuario_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="RolUsuario" Type="Self.RolUsuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RolUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Somatometria_Consulta">
+    <End Role="Consulta" Type="Self.Consulta" Multiplicity="1" />
+    <End Role="Somatometria" Type="Self.Somatometria" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Consulta">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Somatometria">
+        <PropertyRef Name="IDConsulta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Usuario_Medico">
+    <End Role="Medico" Type="Self.Medico" Multiplicity="0..1" />
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Medico">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Usuario">
+        <PropertyRef Name="IDMedico" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Function Name="AntecedentePersonal_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Id" Type="int" Mode="In" />
     <Parameter Name="IDPaciente" Type="int" Mode="In" />
@@ -629,6 +1208,12 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.VacunaV' no tien
     <Parameter Name="Nombre" Type="nvarchar" Mode="In" />
     <Parameter Name="Notas" Type="nvarchar" Mode="In" />
   </Function>
+  <Function Name="Reporte_ConsultaXPaciente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+  </Function>
+  <Function Name="Reporte_SomatometriaXPaciente" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IDExpediente" Type="int" Mode="In" />
+  </Function>
   <Function Name="Somatometria_Actualizar" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
     <Parameter Name="Id" Type="int" Mode="In" />
     <Parameter Name="IDConsulta" Type="int" Mode="In" />
@@ -708,6 +1293,37 @@ advertencia 6002: La tabla o vista 'ConsultorioPediatricoBD.dbo.VacunaV' no tien
     <Parameter Name="Activo" Type="bit" Mode="In" />
   </Function>
   <EntityContainer Name="ConsultorioPediatricoBDModelStoreContainer">
+    <EntitySet Name="AntecedentePersonal" EntityType="Self.AntecedentePersonal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cita" EntityType="Self.Cita" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Consulta" EntityType="Self.Consulta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DosisVacuna" EntityType="Self.DosisVacuna" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Examen" EntityType="Self.Examen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Expediente" EntityType="Self.Expediente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GrupoSanguineo" EntityType="Self.GrupoSanguineo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoriaClinicaFamiliar" EntityType="Self.HistoriaClinicaFamiliar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InformacionFamiliar" EntityType="Self.InformacionFamiliar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="InformacionNacimiento" EntityType="Self.InformacionNacimiento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Medico" EntityType="Self.Medico" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Paciente" EntityType="Self.Paciente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parentesco" EntityType="Self.Parentesco" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Permiso" EntityType="Self.Permiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Rol" EntityType="Self.Rol" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolPermiso" EntityType="Self.RolPermiso" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RolUsuario" EntityType="Self.RolUsuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Somatometria" EntityType="Self.Somatometria" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vacuna" EntityType="Self.Vacuna" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Receta" EntityType="Self.Receta" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[Receta].[Id] AS [Id], 
+[Receta].[IDExpediente] AS [IDExpediente], 
+[Receta].[Medicamento] AS [Medicamento], 
+[Receta].[Indicacion] AS [Indicacion], 
+[Receta].[FechaPrescripcion] AS [FechaPrescripcion], 
+[Receta].[Activo] AS [Activo]
+FROM [dbo].[Receta] AS [Receta]</DefiningQuery>
+    </EntitySet>
     <EntitySet Name="AntecedentePersonalV" EntityType="Self.AntecedentePersonalV" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
 [AntecedentePersonalV].[Id] AS [Id], 
@@ -905,6 +1521,19 @@ FROM [dbo].[InformacionFamiliarV] AS [InformacionFamiliarV]</DefiningQuery>
 [InformacionNacimientoV].[EdadGestacional] AS [EdadGestacional]
 FROM [dbo].[InformacionNacimientoV] AS [InformacionNacimientoV]</DefiningQuery>
     </EntitySet>
+    <EntitySet Name="ListaPacientesV" EntityType="Self.ListaPacientesV" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[ListaPacientesV].[Nombre1] AS [Nombre1], 
+[ListaPacientesV].[Apellido1] AS [Apellido1], 
+[ListaPacientesV].[FechaNacimiento] AS [FechaNacimiento], 
+[ListaPacientesV].[CiudadNacimiento] AS [CiudadNacimiento], 
+[ListaPacientesV].[IDGrupoSanguineo] AS [IDGrupoSanguineo], 
+[ListaPacientesV].[Id] AS [Id], 
+[ListaPacientesV].[IDPaciente] AS [IDPaciente], 
+[ListaPacientesV].[Expr1] AS [Expr1], 
+[ListaPacientesV].[NombreGrupo] AS [NombreGrupo]
+FROM [dbo].[ListaPacientesV] AS [ListaPacientesV]</DefiningQuery>
+    </EntitySet>
     <EntitySet Name="PacienteV" EntityType="Self.PacienteV" store:Type="Views" store:Schema="dbo">
       <DefiningQuery>SELECT 
 [PacienteV].[Id] AS [Id], 
@@ -980,5 +1609,85 @@ FROM [dbo].[UsuarioV] AS [UsuarioV]</DefiningQuery>
 [VacunaV].[Activo] AS [Activo]
 FROM [dbo].[VacunaV] AS [VacunaV]</DefiningQuery>
     </EntitySet>
+    <AssociationSet Name="FK_AntecedentePersonal_Paciente" Association="Self.FK_AntecedentePersonal_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="AntecedentePersonal" EntitySet="AntecedentePersonal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cita_Paciente" Association="Self.FK_Cita_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Cita" EntitySet="Cita" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Consulta_Expediente1" Association="Self.FK_Consulta_Expediente1">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="Consulta" EntitySet="Consulta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DosisVacuna_Expediente" Association="Self.FK_DosisVacuna_Expediente">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="DosisVacuna" EntitySet="DosisVacuna" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DosisVacuna_Vacuna1" Association="Self.FK_DosisVacuna_Vacuna1">
+      <End Role="Vacuna" EntitySet="Vacuna" />
+      <End Role="DosisVacuna" EntitySet="DosisVacuna" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Examen_Expediente" Association="Self.FK_Examen_Expediente">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="Examen" EntitySet="Examen" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Expediente_Paciente" Association="Self.FK_Expediente_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="Expediente" EntitySet="Expediente" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoriaClinicaFamiliar_GrupoSanguineo" Association="Self.FK_HistoriaClinicaFamiliar_GrupoSanguineo">
+      <End Role="GrupoSanguineo" EntitySet="GrupoSanguineo" />
+      <End Role="HistoriaClinicaFamiliar" EntitySet="HistoriaClinicaFamiliar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoriaClinicaFamiliar_InformacionFamiliar" Association="Self.FK_HistoriaClinicaFamiliar_InformacionFamiliar">
+      <End Role="InformacionFamiliar" EntitySet="InformacionFamiliar" />
+      <End Role="HistoriaClinicaFamiliar" EntitySet="HistoriaClinicaFamiliar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InformacionFamiliar_Paciente" Association="Self.FK_InformacionFamiliar_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="InformacionFamiliar" EntitySet="InformacionFamiliar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InformacionFamiliar_Parentesco" Association="Self.FK_InformacionFamiliar_Parentesco">
+      <End Role="Parentesco" EntitySet="Parentesco" />
+      <End Role="InformacionFamiliar" EntitySet="InformacionFamiliar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_InformacionNacimiento_Paciente" Association="Self.FK_InformacionNacimiento_Paciente">
+      <End Role="Paciente" EntitySet="Paciente" />
+      <End Role="InformacionNacimiento" EntitySet="InformacionNacimiento" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Paciente_GrupoSanguineo" Association="Self.FK_Paciente_GrupoSanguineo">
+      <End Role="GrupoSanguineo" EntitySet="GrupoSanguineo" />
+      <End Role="Paciente" EntitySet="Paciente" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Receta_Expediente" Association="Self.FK_Receta_Expediente">
+      <End Role="Expediente" EntitySet="Expediente" />
+      <End Role="Receta" EntitySet="Receta" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolPermiso_Permiso" Association="Self.FK_RolPermiso_Permiso">
+      <End Role="Permiso" EntitySet="Permiso" />
+      <End Role="RolPermiso" EntitySet="RolPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolPermiso_Rol" Association="Self.FK_RolPermiso_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="RolPermiso" EntitySet="RolPermiso" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolUsuario_Rol" Association="Self.FK_RolUsuario_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="RolUsuario" EntitySet="RolUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RolUsuario_Usuario" Association="Self.FK_RolUsuario_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="RolUsuario" EntitySet="RolUsuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Somatometria_Consulta" Association="Self.FK_Somatometria_Consulta">
+      <End Role="Consulta" EntitySet="Consulta" />
+      <End Role="Somatometria" EntitySet="Somatometria" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Usuario_Medico" Association="Self.FK_Usuario_Medico">
+      <End Role="Medico" EntitySet="Medico" />
+      <End Role="Usuario" EntitySet="Usuario" />
+    </AssociationSet>
   </EntityContainer>
 </Schema>

@@ -9,8 +9,7 @@ namespace CapaDato
 {
     class ConexionDataAcces
     {
-        string cadena = "Data Source=LEONARDO-HP\\SQLEXPRESS;Initial Catalog=ConsultorioPediatricoBD;" +
-            "Integrated Security=True";
+        string cadena = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=ConsultorioPediatricoBD;Integrated Security=True";
 
         public SqlConnection conectarBD = new SqlConnection();
 

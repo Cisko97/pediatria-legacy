@@ -14,16 +14,16 @@
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
-          Opciones del manifiesto de UAC
-          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
-          nodo requestedExecutionLevel por uno de los siguientes.
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
-         versiones anteriores, elimine el nodo requestedExecutionLevel.
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -54,50 +54,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaDato.dll" size="225280">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaDato.dll" size="346624">
       <assemblyIdentity name="CapaDato" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1FuKTO0JatO6A08P+M4vFUqQY2C7IzubIbArSR7Fhtc=</dsig:DigestValue>
+        <dsig:DigestValue>YeiPO/6J7MrrqzoD2cQub0XQo86mfxgoVy897mBqHXI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaEntidad.dll" size="33280">
-      <assemblyIdentity name="CapaEntidad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>D33+IjoUwc2tNM9lhnORM3I6VCSItOk4ReS0Ce+uGPI=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaNegocio.dll" size="14336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaNegocio.dll" size="13312">
       <assemblyIdentity name="CapaNegocio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>/+hK5DNPpJAOzcfLshoP5MPiWJG6NlWosAp17Z1J+Qc=</dsig:DigestValue>
+        <dsig:DigestValue>aulcZUYR4UBJsEViJx9IGhTFYaqVaU6jc1eKvv8gc2Y=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="2774016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CapaPresentacion.dll" size="2705408">
       <assemblyIdentity name="CapaPresentacion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ppHDG7My3ofkwZC1n0xq5oQt4Cfb4RPX+FuzfaRl4E0=</dsig:DigestValue>
+        <dsig:DigestValue>hyqWhOa2i3YH6EG54VvZVT/Qz+qTwlIwhsWTVjGyBdY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,7 +97,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ys/k8ypDY+yE1WzGAUdooi84x0XK7Irf+TeLeaP5wNw=</dsig:DigestValue>
+        <dsig:DigestValue>EfcWPam7RpF2+8WGAGn966bAHCDAdxDu1ysvDs1ArJQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -390,18 +378,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nunit.framework.dll" size="394240">
-      <assemblyIdentity name="nunit.framework" version="3.12.0.0" publicKeyToken="2638CD05610744EB" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hpVhthozeIwa1Br8pH24+qxaPkqXRiGUMWJahpPfook=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ShockwaveFlashObjects.dll" size="32768">
       <assemblyIdentity name="ShockwaveFlashObjects" version="1.0.0.0" publicKeyToken="692FBEA5521E1304" language="neutral" />
       <hash>
@@ -410,6 +386,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>7B69nE3pig9QLQRIQYvr9aSy2HchV6ixnB/QyZN0guU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nunit.framework.dll" size="394240">
+      <assemblyIdentity name="nunit.framework" version="3.12.0.0" publicKeyToken="2638CD05610744EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hpVhthozeIwa1Br8pH24+qxaPkqXRiGUMWJahpPfook=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -425,13 +413,13 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ConsultorioPediatrico.exe.config" size="1533">
+  <file name="ConsultorioPediatrico.exe.config" size="1587">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CzxwThMEXGreYV3BTXTNe+3AikuQaond2qG94litweg=</dsig:DigestValue>
+      <dsig:DigestValue>9sSuThYmdxwW61IRsmpdAxEl7GEU2ptdTZN+9BL8XJc=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
